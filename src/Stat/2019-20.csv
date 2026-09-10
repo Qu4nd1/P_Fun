@@ -1,0 +1,66 @@
+Game;Date;SeasonType;Opponent;HomeAway;Result;TeamScore;OppScore;OT;Status;Min;Pts;ORb;DRb;Reb;Ast;Stl;Blk;TO;PF;FGM;FGA;3PM;3PA;FTM;FTA
+1;24.10.2019;Regular Season;Clippers;Home;L;122;141;;Played;30;23;1;3;4;4;1;0;8;3;8;20;2;11;5;5
+2;27.10.2019;Regular Season;Thunder;Away;L;92;120;;Played;30;23;2;6;8;5;0;0;2;0;7;18;2;9;7;7
+3;28.10.2019;Regular Season;Pelicans;Away;W;134;123;;Played;31;26;1;2;3;11;3;0;1;5;9;17;4;10;4;4
+4;30.10.2019;Regular Season;Suns;Home;L;110;121;;Played;21;9;0;5;5;6;1;2;4;2;3;11;1;7;2;2
+5;01.11.2019;Regular Season;Spurs;Home;L;110;127;;DNP - Inactive;;;;;;;;;;;;;;;;
+6;02.11.2019;Regular Season;Hornets;Home;L;87;93;;DNP - Inactive;;;;;;;;;;;;;;;;
+7;04.11.2019;Regular Season;Trail Blazers;Home;W;127;118;;DNP - Inactive;;;;;;;;;;;;;;;;
+8;06.11.2019;Regular Season;Rockets;Away;L;112;129;;DNP - Inactive;;;;;;;;;;;;;;;;
+9;08.11.2019;Regular Season;Timberwolves;Away;L;119;125;OT;DNP - Inactive;;;;;;;;;;;;;;;;
+10;09.11.2019;Regular Season;Thunder;Away;L;108;114;;DNP - Inactive;;;;;;;;;;;;;;;;
+11;11.11.2019;Regular Season;Jazz;Home;L;108;122;;DNP - Inactive;;;;;;;;;;;;;;;;
+12;13.11.2019;Regular Season;Lakers;Away;L;94;120;;DNP - Inactive;;;;;;;;;;;;;;;;
+13;15.11.2019;Regular Season;Celtics;Home;L;100;105;;DNP - Inactive;;;;;;;;;;;;;;;;
+14;17.11.2019;Regular Season;Pelicans;Away;L;100;108;;DNP - Inactive;;;;;;;;;;;;;;;;
+15;19.11.2019;Regular Season;Grizzlies;Away;W;114;95;;DNP - Inactive;;;;;;;;;;;;;;;;
+16;20.11.2019;Regular Season;Mavericks;Away;L;94;142;;DNP - Inactive;;;;;;;;;;;;;;;;
+17;22.11.2019;Regular Season;Jazz;Away;L;109;113;;DNP - Inactive;;;;;;;;;;;;;;;;
+18;25.11.2019;Regular Season;Thunder;Home;L;97;100;;DNP - Inactive;;;;;;;;;;;;;;;;
+19;27.11.2019;Regular Season;Bulls;Home;W;104;90;;DNP - Inactive;;;;;;;;;;;;;;;;
+20;29.11.2019;Regular Season;Heat;Away;L;105;122;;DNP - Inactive;;;;;;;;;;;;;;;;
+21;01.12.2019;Regular Season;Magic;Away;L;96;100;;DNP - Inactive;;;;;;;;;;;;;;;;
+22;02.12.2019;Regular Season;Hawks;Away;L;79;104;;DNP - Inactive;;;;;;;;;;;;;;;;
+23;04.12.2019;Regular Season;Hornets;Away;L;91;106;;DNP - Inactive;;;;;;;;;;;;;;;;
+24;06.12.2019;Regular Season;Bulls;Away;W;100;98;;DNP - Inactive;;;;;;;;;;;;;;;;
+25;09.12.2019;Regular Season;Grizzlies;Home;L;102;110;;DNP - Inactive;;;;;;;;;;;;;;;;
+26;11.12.2019;Regular Season;Knicks;Home;L;122;124;OT;DNP - Inactive;;;;;;;;;;;;;;;;
+27;13.12.2019;Regular Season;Jazz;Away;L;106;114;;DNP - Inactive;;;;;;;;;;;;;;;;
+28;15.12.2019;Regular Season;Kings;Home;L;79;100;;DNP - Inactive;;;;;;;;;;;;;;;;
+29;18.12.2019;Regular Season;Trail Blazers;Away;L;112;122;;DNP - Inactive;;;;;;;;;;;;;;;;
+30;20.12.2019;Regular Season;Pelicans;Home;W;106;102;;DNP - Inactive;;;;;;;;;;;;;;;;
+31;23.12.2019;Regular Season;Timberwolves;Home;W;113;104;;DNP - Inactive;;;;;;;;;;;;;;;;
+32;25.12.2019;Regular Season;Rockets;Home;W;116;104;;DNP - Inactive;;;;;;;;;;;;;;;;
+33;27.12.2019;Regular Season;Suns;Home;W;105;96;;DNP - Inactive;;;;;;;;;;;;;;;;
+34;28.12.2019;Regular Season;Mavericks;Home;L;121;141;;DNP - Inactive;;;;;;;;;;;;;;;;
+35;31.12.2019;Regular Season;Spurs;Away;L;113;117;OT;DNP - Inactive;;;;;;;;;;;;;;;;
+36;02.01.2020;Regular Season;Timberwolves;Away;L;84;99;;DNP - Inactive;;;;;;;;;;;;;;;;
+37;04.01.2020;Regular Season;Pistons;Home;L;104;111;;DNP - Inactive;;;;;;;;;;;;;;;;
+38;06.01.2020;Regular Season;Kings;Away;L;98;111;;DNP - Inactive;;;;;;;;;;;;;;;;
+39;08.01.2020;Regular Season;Bucks;Home;L;98;107;;DNP - Inactive;;;;;;;;;;;;;;;;
+40;10.01.2020;Regular Season;Clippers;Away;L;100;109;;DNP - Inactive;;;;;;;;;;;;;;;;
+41;12.01.2020;Regular Season;Grizzlies;Away;L;102;122;;DNP - Inactive;;;;;;;;;;;;;;;;
+42;14.01.2020;Regular Season;Mavericks;Home;L;97;124;;DNP - Inactive;;;;;;;;;;;;;;;;
+43;16.01.2020;Regular Season;Nuggets;Home;L;131;134;OT;DNP - Inactive;;;;;;;;;;;;;;;;
+44;18.01.2020;Regular Season;Magic;Home;W;109;95;;DNP - Inactive;;;;;;;;;;;;;;;;
+45;20.01.2020;Regular Season;Trail Blazers;Away;L;124;129;OT;DNP - Inactive;;;;;;;;;;;;;;;;
+46;22.01.2020;Regular Season;Jazz;Home;L;96;129;;DNP - Inactive;;;;;;;;;;;;;;;;
+47;24.01.2020;Regular Season;Pacers;Home;L;118;129;;DNP - Inactive;;;;;;;;;;;;;;;;
+48;28.01.2020;Regular Season;76ers;Away;L;104;115;;DNP - Inactive;;;;;;;;;;;;;;;;
+49;30.01.2020;Regular Season;Celtics;Away;L;104;119;;DNP - Inactive;;;;;;;;;;;;;;;;
+50;01.02.2020;Regular Season;Cavaliers;Away;W;131;112;;DNP - Inactive;;;;;;;;;;;;;;;;
+51;03.02.2020;Regular Season;Wizards;Away;W;125;117;;DNP - Inactive;;;;;;;;;;;;;;;;
+52;05.02.2020;Regular Season;Nets;Away;L;88;129;;DNP - Inactive;;;;;;;;;;;;;;;;
+53;08.02.2020;Regular Season;Lakers;Home;L;120;125;;DNP - Inactive;;;;;;;;;;;;;;;;
+54;10.02.2020;Regular Season;Heat;Home;L;101;113;;DNP - Inactive;;;;;;;;;;;;;;;;
+55;12.02.2020;Regular Season;Suns;Away;L;106;112;;DNP - Inactive;;;;;;;;;;;;;;;;
+56;20.02.2020;Regular Season;Rockets;Home;L;105;135;;DNP - Fractured Left Hand;;;;;;;;;;;;;;;;
+57;23.02.2020;Regular Season;Pelicans;Home;L;101;115;;DNP - Inactive;;;;;;;;;;;;;;;;
+58;25.02.2020;Regular Season;Kings;Home;L;94;112;;DNP - Inactive;;;;;;;;;;;;;;;;
+59;27.02.2020;Regular Season;Lakers;Home;L;86;116;;DNP - Inactive;;;;;;;;;;;;;;;;
+60;29.02.2020;Regular Season;Suns;Away;W;115;99;;DNP - Inactive;;;;;;;;;;;;;;;;
+61;01.03.2020;Regular Season;Wizards;Home;L;110;124;;DNP - Inactive;;;;;;;;;;;;;;;;
+62;03.03.2020;Regular Season;Nuggets;Away;W;116;100;;DNP - Inactive;;;;;;;;;;;;;;;;
+63;05.03.2020;Regular Season;Raptors;Home;L;113;121;;Played;27;23;0;6;6;7;0;0;1;1;6;16;3;12;8;8
+64;07.03.2020;Regular Season;76ers;Home;W;118;114;;DNP - Inactive;;;;;;;;;;;;;;;;
+65;10.03.2020;Regular Season;Clippers;Home;L;107;131;;DNP - Flu;;;;;;;;;;;;;;;;

@@ -1,0 +1,96 @@
+Game;Date;SeasonType;Opponent;HomeAway;Result;TeamScore;OppScore;OT;Status;Min;Pts;ORb;DRb;Reb;Ast;Stl;Blk;TO;PF;FGM;FGA;3PM;3PA;FTM;FTA
+1;23.10.2024;Regular Season;Trail Blazers;Away;W;140;104;;Played;25;17;0;9;9;10;2;0;2;0;4;10;3;7;6;6
+2;25.10.2024;Regular Season;Jazz;Away;W;127;86;;Played;27;20;0;3;3;4;2;0;3;3;7;20;4;13;2;2
+3;27.10.2024;Regular Season;Clippers;Home;L;104;112;;Played;27;18;0;4;4;6;2;1;6;1;6;11;4;7;2;2
+4;29.10.2024;Regular Season;Pelicans;Home;W;124;106;;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+5;30.10.2024;Regular Season;Pelicans;Home;W;104;89;;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+6;02.11.2024;Regular Season;Rockets;Away;W;127;121;OT;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+7;04.11.2024;Regular Season;Wizards;Away;W;125;112;;Played;24;24;1;2;3;6;0;0;2;1;7;15;4;9;6;6
+8;06.11.2024;Regular Season;Celtics;Away;W;118;112;;Played;34;27;0;7;7;9;4;1;3;2;8;17;4;9;7;7
+9;08.11.2024;Regular Season;Cavaliers;Away;L;117;136;;Played;24;12;0;1;1;2;2;0;6;0;5;10;1;4;1;1
+10;10.11.2024;Regular Season;Thunder;Away;W;127;116;;Played;37;36;1;4;5;7;1;1;3;2;13;23;7;13;3;4
+11;12.11.2024;Regular Season;Mavericks;Home;W;120;117;;Played;35;37;0;6;6;9;1;2;4;2;14;27;5;12;4;5
+12;15.11.2024;Regular Season;Grizzlies;Home;W;123;118;;Played;26;13;1;7;8;5;4;0;3;2;4;9;3;7;2;2
+13;18.11.2024;Regular Season;Clippers;Away;L;99;102;;Played;32;26;1;6;7;6;0;1;3;1;10;21;6;15;0;0
+14;20.11.2024;Regular Season;Hawks;Home;W;120;97;;Played;30;23;0;4;4;8;2;1;5;0;7;10;4;6;5;5
+15;22.11.2024;Regular Season;Pelicans;Away;W;112;108;;Played;33;19;0;7;7;7;1;1;4;3;6;13;4;7;3;3
+16;23.11.2024;Regular Season;Spurs;Away;L;94;104;;Played;32;14;2;5;7;5;0;0;3;1;5;16;3;10;1;1
+17;25.11.2024;Regular Season;Nets;Home;L;120;128;;Played;29;28;0;4;4;7;1;0;3;0;8;17;8;16;4;4
+18;27.11.2024;Regular Season;Thunder;Home;L;101;105;;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+19;30.11.2024;Regular Season;Suns;Away;L;105;113;;Played;32;23;1;6;7;4;0;0;0;1;8;21;3;10;4;5
+20;03.12.2024;Regular Season;Nuggets;Away;L;115;119;;Played;34;24;1;6;7;11;0;0;5;0;8;23;4;15;4;4
+21;05.12.2024;Regular Season;Rockets;Home;W;99;93;;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+22;06.12.2024;Regular Season;Timberwolves;Home;L;90;107;;Played;32;23;1;1;2;4;0;0;3;0;6;17;3;9;8;8
+23;08.12.2024;Regular Season;Timberwolves;Home;W;114;106;;Played;35;30;0;4;4;8;1;0;3;0;8;18;5;11;9;11
+24;11.12.2024;Regular Season;Rockets;Away;L;90;91;;Played;34;19;1;2;3;5;2;1;1;0;8;17;3;9;0;1
+25;15.12.2024;Regular Season;Mavericks;Home;L;133;143;;Played;35;26;0;5;5;10;1;0;2;1;9;19;7;13;1;1
+26;19.12.2024;Regular Season;Grizzlies;Away;L;93;144;;Played;24;2;0;3;3;1;1;1;2;0;0;7;0;6;2;2
+27;21.12.2024;Regular Season;Timberwolves;Away;W;113;103;;Played;34;31;0;3;3;10;1;0;1;1;10;21;7;16;4;5
+28;23.12.2024;Regular Season;Pacers;Home;L;105;111;;Played;35;10;0;5;5;7;0;3;3;1;2;13;2;9;4;4
+29;25.12.2024;Regular Season;Lakers;Home;L;113;115;;Played;36;38;0;1;1;6;0;0;4;3;14;24;8;15;2;2
+30;27.12.2024;Regular Season;Clippers;Away;L;92;102;;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+31;28.12.2024;Regular Season;Suns;Home;W;109;105;;Played;35;22;2;4;6;6;1;0;5;3;9;22;4;13;0;0
+32;30.12.2024;Regular Season;Cavaliers;Home;L;95;113;;Played;29;11;0;2;2;3;1;1;1;1;4;14;3;11;0;0
+33;02.01.2025;Regular Season;76ers;Home;W;139;105;;Played;30;30;1;5;6;10;1;0;2;1;11;15;8;8;0;0
+34;04.01.2025;Regular Season;Grizzlies;Home;W;121;113;;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+35;05.01.2025;Regular Season;Kings;Home;L;99;129;;Played;30;26;0;7;7;0;1;0;4;3;8;12;4;8;6;6
+36;07.01.2025;Regular Season;Heat;Home;L;98;114;;Played;33;31;0;7;7;0;1;2;4;2;11;22;8;17;1;1
+37;09.01.2025;Regular Season;Pistons;Away;W;107;104;;Played;36;17;1;8;9;6;2;0;3;0;5;21;2;14;5;5
+38;10.01.2025;Regular Season;Pacers;Away;L;96;108;;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+39;13.01.2025;Regular Season;Raptors;Away;L;101;104;;Played;35;26;1;6;7;7;1;0;4;2;9;17;4;10;4;4
+40;15.01.2025;Regular Season;Timberwolves;Away;W;116;115;;Played;37;31;1;0;1;8;1;0;1;1;10;21;7;12;4;4
+41;18.01.2025;Regular Season;Wizards;Home;W;122;114;;Played;34;26;1;4;5;6;1;1;1;1;10;22;4;14;2;2
+42;20.01.2025;Regular Season;Celtics;Home;L;85;125;;Played;27;18;0;3;3;4;2;0;3;3;6;16;4;12;2;2
+43;22.01.2025;Regular Season;Kings;Away;L;117;123;;Played;34;14;1;2;3;12;0;0;3;1;6;11;1;4;1;1
+44;23.01.2025;Regular Season;Bulls;Home;W;131;106;;Played;31;21;1;3;4;7;0;0;3;0;8;19;5;12;0;0
+45;25.01.2025;Regular Season;Lakers;Home;L;108;118;;Played;32;13;0;1;1;9;2;0;3;2;4;17;2;9;3;4
+46;28.01.2025;Regular Season;Jazz;Home;W;114;103;;DND - Knee Soreness;;;;;;;;;;;;;;;;
+47;29.01.2025;Regular Season;Thunder;Home;W;116;109;;Played;33;21;0;1;1;4;1;0;0;2;6;15;5;10;4;4
+48;31.01.2025;Regular Season;Suns;Home;L;105;130;;Played;31;14;1;2;3;3;0;2;2;1;5;14;1;6;3;3
+49;03.02.2025;Regular Season;Magic;Home;W;104;99;;Played;34;24;0;1;1;5;1;0;3;1;7;21;2;12;8;8
+50;05.02.2025;Regular Season;Jazz;Away;L;128;131;;Played;35;32;0;1;1;7;0;1;3;2;12;31;6;18;2;2
+51;06.02.2025;Regular Season;Lakers;Away;L;112;120;;Played;37;37;2;5;7;4;1;1;4;3;13;35;6;20;5;5
+52;08.02.2025;Regular Season;Bulls;Away;W;132;111;;Played;34;34;2;2;4;6;0;1;4;1;10;19;8;16;6;8
+53;10.02.2025;Regular Season;Bucks;Away;W;125;111;;Played;34;38;0;6;6;4;0;0;2;0;12;24;6;16;8;9
+54;12.02.2025;Regular Season;Mavericks;Away;L;107;111;;Played;37;25;1;4;5;8;2;0;4;3;9;23;4;13;3;4
+55;13.02.2025;Regular Season;Rockets;Away;W;105;98;;Played;35;27;1;4;5;3;0;0;1;2;7;17;5;13;8;9
+56;21.02.2025;Regular Season;Kings;Away;W;132;108;;Played;31;20;0;1;1;6;2;0;1;0;7;13;4;9;2;2
+57;23.02.2025;Regular Season;Mavericks;Home;W;126;102;;Played;29;30;0;4;4;7;1;0;2;3;12;20;3;8;3;3
+58;25.02.2025;Regular Season;Hornets;Home;W;128;92;;Played;24;15;0;4;4;6;1;0;2;2;6;14;2;9;1;1
+59;27.02.2025;Regular Season;Magic;Away;W;121;115;;Played;34;56;0;4;4;3;2;0;4;0;16;25;12;19;12;12
+60;01.03.2025;Regular Season;76ers;Away;L;119;126;;Played;36;29;1;4;5;13;1;0;3;2;10;18;5;12;4;4
+61;03.03.2025;Regular Season;Hornets;Away;W;119;101;;Played;30;21;1;2;3;10;1;1;1;3;6;14;3;9;6;8
+62;04.03.2025;Regular Season;Knicks;Away;W;114;102;;Played;33;28;0;7;7;9;2;0;2;0;10;21;5;9;3;3
+63;06.03.2025;Regular Season;Nets;Away;W;121;119;;Played;36;40;2;2;4;4;0;0;5;3;12;20;7;13;9;9
+64;08.03.2025;Regular Season;Pistons;Home;W;115;110;;Played;33;32;1;2;3;4;1;0;4;1;8;22;4;15;12;12
+65;10.03.2025;Regular Season;Trail Blazers;Home;W;130;120;;Played;34;24;1;1;2;3;2;0;4;0;6;14;5;11;7;7
+66;13.03.2025;Regular Season;Kings;Home;W;130;104;;Played;30;11;0;2;2;5;1;1;2;4;4;9;2;6;1;1
+67;15.03.2025;Regular Season;Knicks;Home;W;97;94;;Played;35;28;0;7;7;5;0;1;3;2;8;20;4;13;8;9
+68;17.03.2025;Regular Season;Nuggets;Home;L;105;114;;Played;36;20;0;4;4;7;3;0;7;2;6;21;4;14;4;4
+69;18.03.2025;Regular Season;Bucks;Home;W;104;93;;DND - Rest;;;;;;;;;;;;;;;;
+70;20.03.2025;Regular Season;Raptors;Home;W;117;114;;Played;25;17;0;2;2;1;0;1;3;0;6;8;2;4;3;5
+71;22.03.2025;Regular Season;Hawks;Away;L;115;124;;DNP - Inactive;;;;;;;;;;;;;;;;
+72;25.03.2025;Regular Season;Heat;Away;L;86;112;;DNP - Inactive - Injury/illness;;;;;;;;;;;;;;;;
+73;28.03.2025;Regular Season;Pelicans;Away;W;111;95;;Played;34;23;0;4;4;6;3;0;1;2;7;21;5;16;4;5
+74;30.03.2025;Regular Season;Spurs;Away;W;148;106;;Played;26;13;0;3;3;6;1;1;0;2;4;10;2;4;3;3
+75;01.04.2025;Regular Season;Grizzlies;Away;W;134;125;;Played;37;52;1;9;10;8;5;1;2;2;16;31;12;20;8;8
+76;03.04.2025;Regular Season;Lakers;Away;W;123;116;;Played;34;37;1;2;3;6;0;0;2;1;10;21;4;11;13;14
+77;04.04.2025;Regular Season;Nuggets;Home;W;118;104;;Played;32;36;1;1;2;5;2;0;2;2;13;24;7;15;3;3
+78;06.04.2025;Regular Season;Rockets;Home;L;96;106;;Played;33;3;0;2;2;8;0;0;4;0;1;10;1;8;0;0
+79;08.04.2025;Regular Season;Suns;Away;W;133;95;;Played;26;25;1;8;9;6;1;1;2;0;9;17;3;9;4;4
+80;09.04.2025;Regular Season;Spurs;Home;L;111;114;;Played;37;30;2;6;8;3;2;0;1;0;12;24;5;14;1;1
+81;11.04.2025;Regular Season;Trail Blazers;Away;W;103;86;;Played;27;14;1;4;5;5;0;1;1;2;6;14;2;8;0;0
+82;13.04.2025;Regular Season;Clippers;Home;L;119;124;OT;Played;38;36;1;2;3;6;2;0;8;2;10;20;7;12;9;9
+83;15.04.2025;Play-In;Grizzlies;Home;W;121;116;;Played;39;37;0;8;8;4;1;0;1;0;9;22;6;13;13;13
+84;20.04.2025;Playoffs;Rockets;Away;W;95;85;;Played;40;31;0;6;6;3;1;0;4;2;12;19;5;9;2;2
+85;23.04.2025;Playoffs;Rockets;Away;L;94;109;;Played;37;20;0;5;5;9;1;1;6;0;6;15;4;9;4;4
+86;26.04.2025;Playoffs;Rockets;Home;W;104;93;;Played;41;36;0;7;7;9;1;2;2;0;12;23;5;13;7;8
+87;28.04.2025;Playoffs;Rockets;Home;W;109;106;;Played;39;17;0;3;3;3;1;0;4;2;6;13;2;8;3;3
+88;30.04.2025;Playoffs;Rockets;Away;L;116;131;;Played;23;13;1;2;3;7;0;0;3;2;4;12;3;9;2;3
+89;02.05.2025;Playoffs;Rockets;Home;L;107;115;;Played;42;29;1;6;7;2;2;1;5;4;9;23;6;16;5;6
+90;04.05.2025;Playoffs;Rockets;Away;W;103;89;;Played;46;22;0;10;10;7;2;2;2;3;8;16;4;10;2;2
+91;06.05.2025;Playoffs;Timberwolves;Away;W;99;88;;Played;13;13;0;1;1;1;0;0;1;0;5;9;3;6;0;0
+92;08.05.2025;Playoffs;Timberwolves;Away;L;93;117;;DND - Left Hamstring Strain;;;;;;;;;;;;;;;;
+93;10.05.2025;Playoffs;Timberwolves;Home;L;97;102;;DND - Left Hamstring Strain;;;;;;;;;;;;;;;;
+94;12.05.2025;Playoffs;Timberwolves;Home;L;110;117;;DND - Left Hamstring Strain;;;;;;;;;;;;;;;;
+95;14.05.2025;Playoffs;Timberwolves;Away;L;110;121;;DND - Left Hamstring Strain;;;;;;;;;;;;;;;;

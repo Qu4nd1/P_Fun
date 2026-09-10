@@ -1,0 +1,75 @@
+Game;Date;SeasonType;Opponent;HomeAway;Result;TeamScore;OppScore;OT;Status;Min;Pts;ORb;DRb;Reb;Ast;Stl;Blk;TO;PF;FGM;FGA;3PM;3PA;FTM;FTA
+1;22.12.2020;Regular Season;Nets;Away;L;99;125;;Played;30;20;3;1;4;10;2;0;3;1;7;21;2;10;4;4
+2;25.12.2020;Regular Season;Bucks;Away;L;99;138;;Played;29;19;0;4;4;6;1;0;2;2;6;17;2;10;5;5
+3;27.12.2020;Regular Season;Bulls;Away;W;129;128;;Played;36;36;0;2;2;6;2;2;4;1;11;25;5;15;9;9
+4;29.12.2020;Regular Season;Pistons;Away;W;116;106;;Played;35;31;0;5;5;6;2;0;8;5;9;17;5;9;8;8
+5;01.01.2021;Regular Season;Trail Blazers;Home;L;98;123;;Played;34;26;0;8;8;5;0;0;1;1;9;20;4;12;4;4
+6;03.01.2021;Regular Season;Trail Blazers;Home;W;137;122;;Played;36;62;1;4;5;4;0;0;5;0;18;31;8;16;18;19
+7;04.01.2021;Regular Season;Kings;Home;W;137;106;;Played;31;30;0;9;9;8;0;0;2;3;9;18;5;12;7;7
+8;06.01.2021;Regular Season;Clippers;Home;L;101;108;;Played;35;13;1;3;4;5;1;0;0;3;5;17;1;6;2;4
+9;08.01.2021;Regular Season;Clippers;Home;W;115;105;;Played;36;38;0;2;2;11;3;0;2;3;13;24;9;14;3;3
+10;10.01.2021;Regular Season;Raptors;Home;W;106;105;;Played;38;11;3;6;9;6;0;0;5;3;2;16;1;10;6;6
+11;12.01.2021;Regular Season;Pacers;Home;L;95;104;;Played;36;20;1;3;4;3;2;0;2;3;7;17;3;8;3;5
+12;14.01.2021;Regular Season;Nuggets;Away;L;104;114;;Played;37;35;0;11;11;4;2;0;7;2;14;23;5;11;2;2
+13;18.01.2021;Regular Season;Lakers;Away;W;115;113;;Played;36;26;0;1;1;7;1;0;4;2;8;22;3;12;7;7
+14;20.01.2021;Regular Season;Spurs;Home;W;121;99;;Played;31;26;1;10;11;7;1;0;4;2;10;17;4;8;2;2
+15;21.01.2021;Regular Season;Knicks;Home;L;104;119;;Played;35;30;0;3;3;4;2;0;4;3;9;19;5;14;7;8
+16;23.01.2021;Regular Season;Jazz;Away;L;108;127;;Played;27;24;0;7;7;7;0;0;1;2;9;18;5;10;1;2
+17;25.01.2021;Regular Season;Timberwolves;Home;W;130;108;;Played;34;36;1;3;4;3;3;0;3;2;11;21;7;12;7;8
+18;27.01.2021;Regular Season;Timberwolves;Home;W;123;111;;Played;33;16;0;6;6;8;0;0;2;2;6;17;4;11;0;0
+19;28.01.2021;Regular Season;Suns;Away;L;93;114;;Played;31;27;1;3;4;4;0;0;4;2;10;20;5;10;2;2
+20;30.01.2021;Regular Season;Pistons;Home;W;118;91;;Played;30;28;0;5;5;7;2;0;6;1;11;17;6;8;0;0
+21;02.02.2021;Regular Season;Celtics;Home;L;107;111;;Played;38;38;0;11;11;8;3;0;3;0;12;21;7;14;7;7
+22;04.02.2021;Regular Season;Mavericks;Away;W;147;116;;Played;30;28;0;3;3;6;0;0;2;2;9;17;4;10;6;6
+23;06.02.2021;Regular Season;Mavericks;Away;L;132;134;;Played;37;57;0;2;2;5;1;0;3;3;19;31;11;19;8;8
+24;08.02.2021;Regular Season;Spurs;Away;L;100;105;;Played;36;32;0;7;7;6;1;0;1;1;10;17;6;11;6;6
+25;09.02.2021;Regular Season;Spurs;Away;W;114;91;;Played;32;32;0;4;4;2;0;0;1;1;11;20;4;10;6;8
+26;11.02.2021;Regular Season;Magic;Home;W;111;105;;Played;37;40;0;8;8;5;4;0;6;1;14;26;10;19;2;2
+27;13.02.2021;Regular Season;Nets;Home;L;117;134;;Played;34;27;0;3;3;5;0;0;4;2;10;17;2;9;5;5
+28;15.02.2021;Regular Season;Cavaliers;Home;W;129;98;;Played;30;36;0;2;2;6;0;0;1;0;13;19;7;11;3;3
+29;17.02.2021;Regular Season;Heat;Home;W;120;112;OT;Played;42;25;1;6;7;11;2;0;3;1;8;25;5;20;4;4
+30;19.02.2021;Regular Season;Magic;Away;L;120;124;;Played;37;29;2;5;7;11;0;0;1;3;11;29;6;16;1;1
+31;20.02.2021;Regular Season;Hornets;Away;L;100;102;;DNP - Illness;;;;;;;;;;;;;;;;
+32;23.02.2021;Regular Season;Knicks;Away;W;114;106;;Played;37;37;0;6;6;6;2;0;2;1;9;22;7;14;12;12
+33;24.02.2021;Regular Season;Pacers;Away;W;111;107;;Played;36;24;1;7;8;8;2;0;4;2;7;21;1;11;9;10
+34;26.02.2021;Regular Season;Hornets;Home;W;130;121;;Played;36;29;0;4;4;9;1;0;4;1;8;15;3;8;10;10
+35;28.02.2021;Regular Season;Lakers;Away;L;91;117;;Played;26;16;0;4;4;7;3;0;3;2;5;13;2;7;4;5
+36;03.03.2021;Regular Season;Trail Blazers;Away;L;106;108;;Played;36;35;1;6;7;5;3;0;4;1;13;28;5;14;4;5
+37;04.03.2021;Regular Season;Suns;Away;L;98;120;;DNP - Inactive;;;;;;;;;;;;;;;;
+38;11.03.2021;Regular Season;Clippers;Away;L;104;130;;Played;27;14;0;4;4;3;2;1;2;1;6;16;1;8;1;2
+39;14.03.2021;Regular Season;Jazz;Home;W;131;119;;Played;36;32;1;4;5;9;1;0;3;3;10;20;6;9;6;7
+40;15.03.2021;Regular Season;Lakers;Home;L;97;128;;Played;29;27;0;3;3;2;3;0;2;1;9;17;4;7;5;5
+41;17.03.2021;Regular Season;Rockets;Away;W;108;94;;Played;30;18;0;5;5;8;1;0;2;3;7;18;2;11;2;2
+42;19.03.2021;Regular Season;Grizzlies;Away;W;116;103;;DNP - Tailbone Contusion;;;;;;;;;;;;;;;;
+43;20.03.2021;Regular Season;Grizzlies;Away;L;103;111;;DNP - Bruised Tailbone;;;;;;;;;;;;;;;;
+44;23.03.2021;Regular Season;76ers;Home;L;98;108;;DNP - Inactive;;;;;;;;;;;;;;;;
+45;25.03.2021;Regular Season;Kings;Away;L;119;141;;DNP - Tailbone Contusion;;;;;;;;;;;;;;;;
+46;26.03.2021;Regular Season;Hawks;Home;L;108;124;;DNP - Tailbone Contusion;;;;;;;;;;;;;;;;
+47;29.03.2021;Regular Season;Bulls;Home;W;116;102;;Played;30;32;1;4;5;6;1;0;1;0;11;24;6;14;4;5
+48;01.04.2021;Regular Season;Heat;Away;L;109;116;;Played;36;36;2;9;11;3;0;0;3;2;9;19;5;11;13;13
+49;02.04.2021;Regular Season;Raptors;Away;L;77;130;;DNP - Tailbone Contusion;;;;;;;;;;;;;;;;
+50;04.04.2021;Regular Season;Hawks;Away;L;111;117;;Played;37;37;1;4;5;2;2;1;8;0;12;23;3;12;10;12
+51;06.04.2021;Regular Season;Bucks;Home;W;122;121;;Played;38;41;2;4;6;4;0;0;4;2;14;21;5;10;8;9
+52;09.04.2021;Regular Season;Wizards;Home;L;107;110;;Played;35;32;0;6;6;5;3;0;2;0;11;25;5;12;5;6
+53;10.04.2021;Regular Season;Rockets;Home;W;125;109;;Played;35;38;0;8;8;5;1;0;5;3;13;21;8;15;4;4
+54;12.04.2021;Regular Season;Nuggets;Home;W;116;107;;Played;36;53;0;6;6;4;0;0;5;3;14;24;10;18;15;16
+55;14.04.2021;Regular Season;Thunder;Away;W;147;109;;Played;29;42;0;6;6;8;0;0;0;3;14;20;11;16;3;3
+56;15.04.2021;Regular Season;Cavaliers;Away;W;119;101;;Played;35;33;0;4;4;5;0;2;4;3;12;25;4;13;5;5
+57;17.04.2021;Regular Season;Celtics;Away;L;114;119;;Played;37;47;0;7;7;3;0;0;5;2;15;27;11;19;6;8
+58;19.04.2021;Regular Season;76ers;Away;W;107;96;;Played;37;49;0;3;3;5;0;0;6;2;14;28;10;17;11;12
+59;21.04.2021;Regular Season;Wizards;Away;L;114;118;;Played;36;18;0;7;7;8;1;0;6;2;7;25;2;14;2;2
+60;23.04.2021;Regular Season;Nuggets;Home;W;118;97;;Played;34;32;0;8;8;3;0;0;3;3;11;18;4;9;6;6
+61;25.04.2021;Regular Season;Kings;Home;W;117;113;;Played;38;37;0;7;7;4;1;1;7;1;11;21;7;14;8;11
+62;27.04.2021;Regular Season;Mavericks;Home;L;103;133;;Played;30;27;0;1;1;2;2;0;2;1;9;18;5;9;4;4
+63;29.04.2021;Regular Season;Timberwolves;Away;L;114;126;;Played;37;37;1;5;6;8;2;0;3;4;11;27;6;17;9;9
+64;01.05.2021;Regular Season;Rockets;Away;W;113;87;;Played;30;30;0;5;5;5;1;0;4;0;9;23;7;17;5;7
+65;03.05.2021;Regular Season;Pelicans;Away;W;123;108;;Played;35;41;0;4;4;8;1;0;4;5;14;26;8;18;5;6
+66;04.05.2021;Regular Season;Pelicans;Away;L;103;108;;Played;37;37;2;7;9;2;3;0;4;2;13;31;8;20;3;3
+67;06.05.2021;Regular Season;Thunder;Home;W;118;97;;Played;31;34;0;4;4;7;1;0;3;2;11;21;6;13;6;7
+68;08.05.2021;Regular Season;Thunder;Home;W;136;97;;Played;29;49;0;5;5;2;1;0;1;2;14;26;11;21;10;10
+69;10.05.2021;Regular Season;Jazz;Home;W;119;116;;Played;37;36;1;3;4;6;2;0;3;1;11;25;3;13;11;12
+70;11.05.2021;Regular Season;Suns;Home;W;122;116;;Played;37;21;0;3;3;6;1;0;3;2;7;22;1;11;6;6
+71;14.05.2021;Regular Season;Pelicans;Home;W;125;122;;DNP - Tailbone Contusion;;;;;;;;;;;;;;;;
+72;16.05.2021;Regular Season;Grizzlies;Home;W;113;101;;Played;40;46;1;6;7;9;1;1;7;2;16;36;9;22;5;6
+73;19.05.2021;Play-In;Lakers;Away;L;100;103;;Played;41;37;0;7;7;3;0;0;6;2;12;23;6;9;7;8
+74;21.05.2021;Play-In;Grizzlies;Home;L;112;117;OT;Played;47;39;1;3;4;5;3;0;7;5;13;28;6;15;7;7

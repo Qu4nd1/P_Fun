@@ -1,0 +1,104 @@
+Game;Date;SeasonType;Opponent;HomeAway;Result;TeamScore;OppScore;OT;Status;Min;Pts;ORb;DRb;Reb;Ast;Stl;Blk;TO;PF;FGM;FGA;3PM;3PA;FTM;FTA
+1;17.10.2017;Regular Season;Rockets;Home;L;121;122;;Played;30;22;0;5;5;4;1;0;2;4;8;18;3;9;3;3
+2;20.10.2017;Regular Season;Pelicans;Away;W;128;120;;Played;35;28;0;3;3;8;0;0;1;1;7;16;4;11;10;10
+3;21.10.2017;Regular Season;Grizzlies;Away;L;101;111;;Played;30;37;0;6;6;3;0;0;2;5;9;17;6;11;13;13
+4;23.10.2017;Regular Season;Mavericks;Away;W;133;103;;Played;31;29;2;0;2;8;4;0;6;1;7;15;2;10;13;13
+5;25.10.2017;Regular Season;Raptors;Home;W;117;112;;Played;38;30;0;4;4;5;3;1;2;2;9;20;4;11;8;8
+6;27.10.2017;Regular Season;Wizards;Home;W;120;117;;Played;36;20;0;5;5;8;2;0;2;2;7;19;3;13;3;3
+7;29.10.2017;Regular Season;Pistons;Home;L;107;115;;Played;35;27;1;5;6;8;1;0;5;3;11;17;3;7;2;3
+8;30.10.2017;Regular Season;Clippers;Away;W;141;113;;Played;30;31;2;3;5;6;2;1;1;3;9;14;7;11;6;8
+9;02.11.2017;Regular Season;Spurs;Away;W;112;92;;Played;32;21;1;7;8;5;3;0;2;2;7;13;3;4;4;4
+10;04.11.2017;Regular Season;Nuggets;Away;W;127;108;;Played;30;22;0;0;0;11;2;0;3;0;7;14;5;10;3;4
+11;06.11.2017;Regular Season;Heat;Home;W;97;80;;Played;34;16;0;5;5;4;2;0;1;3;5;19;2;9;4;5
+12;08.11.2017;Regular Season;Timberwolves;Home;W;125;101;;Played;30;22;0;8;8;8;2;1;5;2;7;16;2;7;6;6
+13;11.11.2017;Regular Season;76ers;Home;W;135;114;;Played;30;22;0;4;4;9;1;0;2;0;5;12;3;8;9;9
+14;13.11.2017;Regular Season;Magic;Home;W;110;100;;DNP - Inactive;;;;;;;;;;;;;;;;
+15;16.11.2017;Regular Season;Celtics;Away;L;88;92;;Played;31;9;2;4;6;5;4;0;4;5;3;14;2;9;1;2
+16;18.11.2017;Regular Season;76ers;Away;W;124;116;;Played;35;35;0;5;5;5;0;1;2;1;11;22;4;9;9;9
+17;19.11.2017;Regular Season;Nets;Away;W;118;111;;Played;33;39;3;8;11;7;3;0;7;6;14;24;4;10;7;8
+18;22.11.2017;Regular Season;Thunder;Away;L;91;108;;Played;31;24;1;4;5;6;1;0;6;1;9;18;3;8;3;3
+19;24.11.2017;Regular Season;Bulls;Home;W;143;94;;Played;27;33;0;7;7;4;2;0;2;2;10;18;4;11;9;9
+20;25.11.2017;Regular Season;Pelicans;Home;W;110;95;;Played;36;27;0;4;4;6;1;0;1;2;9;25;3;13;6;6
+21;27.11.2017;Regular Season;Kings;Home;L;106;110;;DNP - Inactive;;;;;;;;;;;;;;;;
+22;29.11.2017;Regular Season;Lakers;Away;W;127;123;OT;Played;39;28;0;5;5;7;0;0;5;4;9;20;3;9;7;8
+23;01.12.2017;Regular Season;Magic;Away;W;133;112;;Played;33;23;1;5;6;10;3;0;4;2;9;20;3;8;2;2
+24;03.12.2017;Regular Season;Heat;Away;W;123;95;;Played;30;30;0;2;2;3;2;0;0;1;11;16;5;9;3;4
+25;04.12.2017;Regular Season;Pelicans;Away;W;125;115;;Played;34;31;2;3;5;11;1;0;2;5;9;19;5;11;8;9
+26;06.12.2017;Regular Season;Hornets;Away;W;101;87;;DNP - Inactive;;;;;;;;;;;;;;;;
+27;08.12.2017;Regular Season;Pistons;Away;W;102;98;;DNP - Inactive;;;;;;;;;;;;;;;;
+28;11.12.2017;Regular Season;Trail Blazers;Home;W;111;104;;DNP - Inactive;;;;;;;;;;;;;;;;
+29;14.12.2017;Regular Season;Mavericks;Home;W;112;97;;DNP - Inactive;;;;;;;;;;;;;;;;
+30;18.12.2017;Regular Season;Lakers;Away;W;116;114;OT;DNP - Inactive;;;;;;;;;;;;;;;;
+31;20.12.2017;Regular Season;Grizzlies;Home;W;97;84;;DNP - Inactive;;;;;;;;;;;;;;;;
+32;22.12.2017;Regular Season;Lakers;Home;W;113;106;;DNP - Inactive;;;;;;;;;;;;;;;;
+33;23.12.2017;Regular Season;Nuggets;Home;L;81;96;;DNP - Inactive;;;;;;;;;;;;;;;;
+34;25.12.2017;Regular Season;Cavaliers;Home;W;99;92;;DNP - Inactive;;;;;;;;;;;;;;;;
+35;27.12.2017;Regular Season;Jazz;Home;W;126;101;;DNP - Inactive;;;;;;;;;;;;;;;;
+36;29.12.2017;Regular Season;Hornets;Home;L;100;111;;DNP - Inactive;;;;;;;;;;;;;;;;
+37;30.12.2017;Regular Season;Grizzlies;Home;W;141;128;;Played;26;38;0;4;4;3;0;0;0;2;13;17;10;13;2;2
+38;03.01.2018;Regular Season;Mavericks;Away;W;125;122;;Played;34;32;0;5;5;8;1;0;3;1;11;19;6;13;4;5
+39;04.01.2018;Regular Season;Rockets;Away;W;124;114;;Played;37;29;0;9;9;5;1;0;3;3;10;20;4;10;5;6
+40;06.01.2018;Regular Season;Clippers;Away;W;121;105;;Played;30;45;2;4;6;3;3;0;2;2;11;21;8;16;15;16
+41;08.01.2018;Regular Season;Nuggets;Home;W;124;114;;Played;35;32;1;3;4;9;2;0;6;3;9;17;5;10;9;10
+42;10.01.2018;Regular Season;Clippers;Home;L;106;125;;DNP - Inactive;;;;;;;;;;;;;;;;
+43;12.01.2018;Regular Season;Bucks;Away;W;108;94;;DNP - Inactive;;;;;;;;;;;;;;;;
+44;13.01.2018;Regular Season;Raptors;Away;W;127;125;;Played;34;24;0;6;6;9;1;0;1;3;6;12;2;7;10;12
+45;15.01.2018;Regular Season;Cavaliers;Away;W;118;108;;Played;33;23;1;3;4;8;2;0;3;3;8;15;4;8;3;4
+46;17.01.2018;Regular Season;Bulls;Away;W;119;112;;Played;35;30;0;9;9;4;1;0;6;2;10;18;6;11;4;4
+47;20.01.2018;Regular Season;Rockets;Away;L;108;116;;Played;36;19;0;1;1;8;2;0;6;2;6;20;5;15;2;4
+48;23.01.2018;Regular Season;Knicks;Home;W;123;112;;Played;33;32;0;6;6;7;0;0;1;2;9;19;8;15;6;6
+49;25.01.2018;Regular Season;Timberwolves;Home;W;126;113;;Played;37;25;2;3;5;9;3;0;2;2;9;14;5;9;2;3
+50;27.01.2018;Regular Season;Celtics;Home;W;109;105;;Played;37;49;0;4;4;5;2;0;1;2;16;24;8;13;9;10
+51;30.01.2018;Regular Season;Jazz;Away;L;99;129;;Played;30;14;1;1;2;5;0;0;3;1;4;13;1;7;5;5
+52;02.02.2018;Regular Season;Kings;Away;W;119;104;;Played;36;23;1;4;5;6;2;0;6;3;7;17;3;10;6;6
+53;03.02.2018;Regular Season;Nuggets;Away;L;108;115;;Played;36;24;1;5;6;4;2;0;5;2;8;16;5;12;3;4
+54;06.02.2018;Regular Season;Thunder;Home;L;105;125;;Played;32;21;1;4;5;5;1;1;3;3;6;14;2;9;7;7
+55;08.02.2018;Regular Season;Mavericks;Home;W;121;103;;Played;30;20;2;5;7;8;0;0;4;1;7;12;4;9;2;2
+56;10.02.2018;Regular Season;Spurs;Home;W;122;105;;Played;29;17;1;3;4;8;2;0;2;0;7;13;3;7;0;0
+57;12.02.2018;Regular Season;Suns;Home;W;129;83;;Played;30;22;2;7;9;7;0;1;3;3;8;17;3;9;3;3
+58;14.02.2018;Regular Season;Trail Blazers;Away;L;117;123;;Played;34;17;2;2;4;6;3;0;7;4;6;17;3;10;2;2
+59;22.02.2018;Regular Season;Clippers;Home;W;134;127;;Played;37;44;1;5;6;10;2;0;4;4;14;19;8;11;8;8
+60;24.02.2018;Regular Season;Thunder;Home;W;112;80;;Played;30;21;1;8;9;6;3;0;2;2;8;19;5;12;0;0
+61;26.02.2018;Regular Season;Knicks;Away;W;125;111;;Played;30;21;0;5;5;5;0;0;3;1;8;16;4;9;1;1
+62;28.02.2018;Regular Season;Wizards;Away;W;109;101;;Played;35;25;0;5;5;3;2;0;6;3;5;15;4;9;11;12
+63;02.03.2018;Regular Season;Hawks;Away;W;114;109;;Played;23;28;0;1;1;3;2;0;0;0;8;15;4;9;8;8
+64;06.03.2018;Regular Season;Nets;Home;W;114;101;;Played;34;34;1;5;6;4;3;1;3;2;12;20;6;12;4;5
+65;08.03.2018;Regular Season;Spurs;Home;W;110;107;;Played;2;2;0;0;0;0;0;0;0;0;0;1;0;0;2;2
+66;09.03.2018;Regular Season;Trail Blazers;Away;L;108;125;;DNP - Inactive;;;;;;;;;;;;;;;;
+67;11.03.2018;Regular Season;Timberwolves;Away;L;103;109;;DNP - Inactive;;;;;;;;;;;;;;;;
+68;14.03.2018;Regular Season;Lakers;Home;W;117;106;;DNP - Inactive;;;;;;;;;;;;;;;;
+69;16.03.2018;Regular Season;Kings;Home;L;93;98;;DNP - Inactive;;;;;;;;;;;;;;;;
+70;17.03.2018;Regular Season;Suns;Away;W;124;109;;DNP - Inactive;;;;;;;;;;;;;;;;
+71;19.03.2018;Regular Season;Spurs;Away;L;75;89;;DNP - Inactive;;;;;;;;;;;;;;;;
+72;23.03.2018;Regular Season;Hawks;Home;W;106;94;;Played;25;29;1;6;7;1;0;1;1;1;10;18;3;8;6;6
+73;25.03.2018;Regular Season;Jazz;Home;L;91;110;;DNP - Inactive;;;;;;;;;;;;;;;;
+74;27.03.2018;Regular Season;Pacers;Home;L;81;92;;DNP - Inactive;;;;;;;;;;;;;;;;
+75;29.03.2018;Regular Season;Bucks;Home;L;107;116;;DNP - Inactive;;;;;;;;;;;;;;;;
+76;31.03.2018;Regular Season;Kings;Away;W;112;96;;DNP - Inactive;;;;;;;;;;;;;;;;
+77;01.04.2018;Regular Season;Suns;Home;W;117;107;;DNP - Inactive;;;;;;;;;;;;;;;;
+78;03.04.2018;Regular Season;Thunder;Away;W;111;107;;DNP - Inactive;;;;;;;;;;;;;;;;
+79;05.04.2018;Regular Season;Pacers;Away;L;106;126;;DNP - Inactive;;;;;;;;;;;;;;;;
+80;07.04.2018;Regular Season;Pelicans;Home;L;120;126;;DNP - Inactive;;;;;;;;;;;;;;;;
+81;08.04.2018;Regular Season;Suns;Away;W;117;100;;DNP - Inactive;;;;;;;;;;;;;;;;
+82;10.04.2018;Regular Season;Jazz;Away;L;79;119;;DNP - Inactive;;;;;;;;;;;;;;;;
+83;14.04.2018;Playoffs;Spurs;Home;W;113;92;;DNP - Inactive;;;;;;;;;;;;;;;;
+84;16.04.2018;Playoffs;Spurs;Home;W;116;101;;DNP - Inactive;;;;;;;;;;;;;;;;
+85;19.04.2018;Playoffs;Spurs;Away;W;110;97;;DNP - Inactive;;;;;;;;;;;;;;;;
+86;22.04.2018;Playoffs;Spurs;Away;L;90;103;;DNP - Inactive;;;;;;;;;;;;;;;;
+87;24.04.2018;Playoffs;Spurs;Home;W;99;91;;DNP - Inactive;;;;;;;;;;;;;;;;
+88;28.04.2018;Playoffs;Pelicans;Home;W;123;101;;DNP - Inactive;;;;;;;;;;;;;;;;
+89;01.05.2018;Playoffs;Pelicans;Home;W;121;116;;Played;27;28;0;7;7;2;3;0;6;2;8;15;5;10;7;7
+90;04.05.2018;Playoffs;Pelicans;Away;L;100;119;;Played;29;19;2;4;6;2;4;2;3;1;6;19;3;9;4;4
+91;06.05.2018;Playoffs;Pelicans;Away;W;118;92;;Played;32;23;0;1;1;2;0;0;2;1;8;17;4;9;3;3
+92;08.05.2018;Playoffs;Pelicans;Home;W;113;104;;Played;37;28;0;7;7;8;1;0;4;2;10;16;3;6;5;5
+93;14.05.2018;Playoffs;Rockets;Away;W;119;106;;Played;35;18;1;5;6;8;2;1;1;5;8;15;1;5;1;2
+94;16.05.2018;Playoffs;Rockets;Away;L;105;127;;Played;34;16;0;7;7;7;0;0;2;3;7;19;1;8;1;1
+95;20.05.2018;Playoffs;Rockets;Home;W;126;85;;Played;34;35;2;4;6;1;0;1;1;2;13;23;5;12;4;4
+96;22.05.2018;Playoffs;Rockets;Home;L;92;95;;Played;39;28;0;6;6;2;2;0;3;3;10;26;6;13;2;2
+97;24.05.2018;Playoffs;Rockets;Away;L;94;98;;Played;41;22;1;6;7;6;4;0;3;2;8;17;2;8;4;5
+98;26.05.2018;Playoffs;Rockets;Home;W;115;86;;Played;40;29;0;5;5;6;0;3;2;2;12;23;5;14;0;0
+99;28.05.2018;Playoffs;Rockets;Away;W;101;92;;Played;44;27;0;9;9;10;4;1;5;4;10;22;7;15;0;0
+100;31.05.2018;Playoffs;Cavaliers;Home;W;124;114;OT;Played;46;29;0;6;6;9;1;0;2;1;11;23;5;11;2;2
+101;03.06.2018;Playoffs;Cavaliers;Home;W;122;103;;Played;38;33;1;6;7;8;1;0;5;3;11;26;9;17;2;2
+102;06.06.2018;Playoffs;Cavaliers;Away;W;110;102;;Played;39;11;0;5;5;6;1;0;2;3;3;16;1;10;4;4
+103;08.06.2018;Playoffs;Cavaliers;Away;W;108;85;;Played;39;37;2;4;6;4;3;3;2;4;12;27;7;15;6;6

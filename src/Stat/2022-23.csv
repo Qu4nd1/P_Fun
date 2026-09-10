@@ -1,0 +1,96 @@
+Game;Date;SeasonType;Opponent;HomeAway;Result;TeamScore;OppScore;OT;Status;Min;Pts;ORb;DRb;Reb;Ast;Stl;Blk;TO;PF;FGM;FGA;3PM;3PA;FTM;FTA
+1;18.10.2022;Regular Season;Lakers;Home;W;123;109;;Played;33;33;1;5;6;7;4;1;4;1;10;22;4;13;9;9
+2;21.10.2022;Regular Season;Nuggets;Home;L;123;128;;Played;36;34;1;4;5;4;0;0;3;2;10;22;5;11;9;9
+3;23.10.2022;Regular Season;Kings;Home;W;130;125;;Played;31;33;0;5;5;2;1;0;2;3;11;22;7;12;4;4
+4;25.10.2022;Regular Season;Suns;Away;L;105;134;;Played;30;21;0;7;7;8;1;0;1;1;7;17;4;9;3;5
+5;27.10.2022;Regular Season;Heat;Home;W;123;110;;Played;37;33;1;6;7;9;1;0;3;0;13;22;7;14;0;0
+6;29.10.2022;Regular Season;Hornets;Away;L;113;120;OT;Played;39;31;0;11;11;6;1;0;2;5;10;22;3;13;8;8
+7;30.10.2022;Regular Season;Pistons;Away;L;114;128;;Played;35;32;0;6;6;3;2;0;1;1;10;24;4;14;8;9
+8;01.11.2022;Regular Season;Heat;Away;L;109;116;;Played;35;23;4;9;13;13;1;0;5;3;7;14;4;10;5;5
+9;03.11.2022;Regular Season;Magic;Away;L;129;130;;Played;38;39;1;2;3;9;0;0;5;3;13;22;8;15;5;5
+10;04.11.2022;Regular Season;Pelicans;Away;L;105;114;;DNP - Inactive;;;;;;;;;;;;;;;;
+11;07.11.2022;Regular Season;Kings;Home;W;116;113;;Played;38;47;0;8;8;8;0;0;0;2;17;24;7;12;6;7
+12;11.11.2022;Regular Season;Cavaliers;Home;W;106;101;;Played;34;40;0;4;4;5;1;0;2;4;15;23;6;11;4;6
+13;13.11.2022;Regular Season;Kings;Away;L;115;122;;Played;37;27;0;6;6;4;1;0;4;0;9;17;3;9;6;6
+14;14.11.2022;Regular Season;Spurs;Home;W;132;95;;Played;27;16;1;4;5;5;1;0;1;1;5;11;3;7;3;3
+15;16.11.2022;Regular Season;Suns;Away;L;119;130;;Played;36;50;0;9;9;6;0;1;3;2;17;28;7;11;9;9
+16;18.11.2022;Regular Season;Knicks;Home;W;111;101;;Played;34;24;0;6;6;10;2;0;5;2;9;19;5;13;1;3
+17;20.11.2022;Regular Season;Rockets;Away;W;127;120;;Played;37;33;0;6;6;15;3;2;1;3;11;20;7;14;4;5
+18;21.11.2022;Regular Season;Pelicans;Away;L;83;128;;DNP - Inactive;;;;;;;;;;;;;;;;
+19;23.11.2022;Regular Season;Clippers;Home;W;124;107;;Played;32;22;1;5;6;9;0;0;1;0;9;20;4;10;0;0
+20;25.11.2022;Regular Season;Jazz;Home;W;129;118;;Played;36;33;0;5;5;4;2;0;5;4;13;23;6;13;1;1
+21;27.11.2022;Regular Season;Timberwolves;Away;W;137;114;;Played;33;25;1;10;11;8;1;0;7;1;7;17;4;11;7;7
+22;29.11.2022;Regular Season;Mavericks;Away;L;113;116;;Played;38;32;1;4;5;5;0;0;4;4;11;24;5;14;5;6
+23;02.12.2022;Regular Season;Bulls;Home;W;119;111;;Played;33;19;0;11;11;6;0;1;6;5;6;16;4;8;3;3
+24;03.12.2022;Regular Season;Rockets;Home;W;120;101;;Played;35;30;0;3;3;10;1;1;4;0;10;21;8;17;2;3
+25;05.12.2022;Regular Season;Pacers;Home;L;104;112;;Played;38;12;0;4;4;6;1;0;3;2;3;17;2;10;4;4
+26;07.12.2022;Regular Season;Jazz;Away;L;123;124;;DNP - Inactive;;;;;;;;;;;;;;;;
+27;10.12.2022;Regular Season;Celtics;Home;W;123;107;;Played;37;32;1;5;6;7;0;1;4;3;12;21;6;11;2;2
+28;13.12.2022;Regular Season;Bucks;Away;L;111;128;;Played;27;20;2;4;6;1;1;1;2;0;6;17;3;10;5;5
+29;14.12.2022;Regular Season;Pacers;Away;L;119;125;;Played;30;38;1;6;7;7;2;1;3;2;11;19;5;10;11;11
+30;16.12.2022;Regular Season;76ers;Away;L;106;118;;DNP - Inactive;;;;;;;;;;;;;;;;
+31;18.12.2022;Regular Season;Raptors;Away;W;126;110;;DNP - Inactive;;;;;;;;;;;;;;;;
+32;20.12.2022;Regular Season;Knicks;Away;L;94;132;;DNP - Inactive;;;;;;;;;;;;;;;;
+33;21.12.2022;Regular Season;Nets;Away;L;113;143;;DNP - Inactive;;;;;;;;;;;;;;;;
+34;25.12.2022;Regular Season;Grizzlies;Home;W;123;109;;DNP - Inactive;;;;;;;;;;;;;;;;
+35;27.12.2022;Regular Season;Hornets;Home;W;110;105;;DNP - Inactive;;;;;;;;;;;;;;;;
+36;28.12.2022;Regular Season;Jazz;Home;W;112;107;;DNP - Inactive;;;;;;;;;;;;;;;;
+37;30.12.2022;Regular Season;Trail Blazers;Home;W;118;112;;DNP - Inactive;;;;;;;;;;;;;;;;
+38;02.01.2023;Regular Season;Hawks;Home;W;143;141;2OT;DNP - Inactive;;;;;;;;;;;;;;;;
+39;04.01.2023;Regular Season;Pistons;Home;L;119;122;;DNP - Inactive;;;;;;;;;;;;;;;;
+40;07.01.2023;Regular Season;Magic;Home;L;101;115;;DNP - Inactive;;;;;;;;;;;;;;;;
+41;10.01.2023;Regular Season;Suns;Home;L;113;125;;Played;31;24;1;0;1;3;1;0;1;4;8;22;5;15;3;4
+42;13.01.2023;Regular Season;Spurs;Away;W;144;113;;Played;23;15;0;4;4;3;0;1;0;3;6;12;2;7;1;1
+43;15.01.2023;Regular Season;Bulls;Away;L;118;132;;Played;34;20;0;10;10;4;0;1;8;2;8;15;3;10;1;2
+44;16.01.2023;Regular Season;Wizards;Away;W;127;118;;Played;38;41;1;6;7;2;0;0;4;1;12;28;6;15;11;12
+45;19.01.2023;Regular Season;Celtics;Away;L;118;121;OT;Played;43;29;0;4;4;7;3;2;3;1;9;25;6;18;5;5
+46;20.01.2023;Regular Season;Cavaliers;Away;W;120;114;;DNP - Inactive;;;;;;;;;;;;;;;;
+47;22.01.2023;Regular Season;Nets;Home;L;116;120;;Played;38;26;1;5;6;7;1;0;5;2;7;16;4;8;8;8
+48;25.01.2023;Regular Season;Grizzlies;Home;W;122;120;;Played;35;34;0;2;2;3;2;0;3;3;10;19;4;8;10;11
+49;27.01.2023;Regular Season;Raptors;Home;W;129;117;;Played;39;35;0;7;7;11;2;0;3;1;13;21;4;8;5;5
+50;30.01.2023;Regular Season;Thunder;Away;W;128;120;;Played;37;38;1;7;8;12;0;1;4;0;12;20;8;14;6;6
+51;01.02.2023;Regular Season;Timberwolves;Away;L;114;119;OT;Played;42;29;0;10;10;3;1;1;4;5;8;21;5;12;8;9
+52;02.02.2023;Regular Season;Nuggets;Away;L;117;134;;Played;33;28;2;3;5;5;0;0;6;4;10;17;5;10;3;3
+53;04.02.2023;Regular Season;Mavericks;Home;W;119;113;;Played;26;21;0;6;6;7;0;0;0;2;7;11;2;6;5;5
+54;06.02.2023;Regular Season;Thunder;Home;W;141;114;;DNP - Inactive;;;;;;;;;;;;;;;;
+55;08.02.2023;Regular Season;Trail Blazers;Away;L;122;125;;DNP - Inactive;;;;;;;;;;;;;;;;
+56;11.02.2023;Regular Season;Lakers;Home;L;103;109;;DNP - Inactive;;;;;;;;;;;;;;;;
+57;13.02.2023;Regular Season;Wizards;Home;W;135;126;;DNP - Inactive;;;;;;;;;;;;;;;;
+58;14.02.2023;Regular Season;Clippers;Away;L;124;134;;DNP - Inactive;;;;;;;;;;;;;;;;
+59;23.02.2023;Regular Season;Lakers;Away;L;111;124;;DNP - Inactive;;;;;;;;;;;;;;;;
+60;24.02.2023;Regular Season;Rockets;Home;W;116;101;;DNP - Inactive;;;;;;;;;;;;;;;;
+61;26.02.2023;Regular Season;Timberwolves;Home;W;109;104;;DNP - Inactive;;;;;;;;;;;;;;;;
+62;28.02.2023;Regular Season;Trail Blazers;Home;W;123;105;;DNP - Inactive;;;;;;;;;;;;;;;;
+63;02.03.2023;Regular Season;Clippers;Home;W;115;91;;DNP - Inactive;;;;;;;;;;;;;;;;
+64;03.03.2023;Regular Season;Pelicans;Home;W;108;99;;DNP - Inactive;;;;;;;;;;;;;;;;
+65;05.03.2023;Regular Season;Lakers;Away;L;105;113;;Played;32;27;0;2;2;6;1;0;2;3;8;20;5;13;6;6
+66;07.03.2023;Regular Season;Thunder;Away;L;128;137;;Played;35;40;1;5;6;7;0;0;6;4;14;23;10;16;2;2
+67;09.03.2023;Regular Season;Grizzlies;Away;L;110;131;;Played;34;29;3;4;7;4;1;0;4;3;10;19;4;8;5;6
+68;11.03.2023;Regular Season;Bucks;Home;W;125;116;OT;Played;43;36;1;5;6;4;2;1;5;1;13;27;6;15;4;4
+69;13.03.2023;Regular Season;Suns;Home;W;123;112;;Played;33;23;2;5;7;5;0;0;5;4;7;13;4;6;5;6
+70;15.03.2023;Regular Season;Clippers;Away;L;126;134;;Played;39;50;0;2;2;6;2;0;2;1;20;28;8;14;2;4
+71;17.03.2023;Regular Season;Hawks;Away;L;119;127;;Played;37;31;2;4;6;5;0;0;6;2;12;27;4;13;3;3
+72;18.03.2023;Regular Season;Grizzlies;Away;L;119;133;;Played;30;16;1;7;8;5;0;0;1;1;5;15;3;8;3;4
+73;20.03.2023;Regular Season;Rockets;Away;W;121;108;;Played;36;30;1;6;7;5;2;1;4;3;10;23;5;15;5;5
+74;22.03.2023;Regular Season;Mavericks;Away;W;127;125;;Played;35;20;1;4;5;13;0;0;3;2;9;18;2;8;0;0
+75;24.03.2023;Regular Season;76ers;Home;W;120;112;;Played;38;29;0;8;8;3;0;0;2;2;10;18;2;7;7;8
+76;26.03.2023;Regular Season;Timberwolves;Home;L;96;99;;Played;36;20;0;6;6;9;1;0;3;3;8;23;4;13;0;0
+77;28.03.2023;Regular Season;Pelicans;Home;W;120;109;;Played;37;39;2;6;8;8;3;0;4;0;14;25;8;15;3;4
+78;31.03.2023;Regular Season;Spurs;Home;W;130;115;;Played;33;33;1;1;2;5;0;0;1;1;11;21;7;11;4;4
+79;02.04.2023;Regular Season;Nuggets;Away;L;110;112;;Played;37;21;1;2;3;4;0;2;3;1;8;28;2;14;3;3
+80;04.04.2023;Regular Season;Thunder;Home;W;136;125;;Played;37;34;0;5;5;6;1;0;0;3;11;25;6;13;6;6
+81;07.04.2023;Regular Season;Kings;Away;W;119;97;;Played;33;25;1;6;7;6;2;1;5;1;8;14;3;7;6;7
+82;09.04.2023;Regular Season;Trail Blazers;Away;W;157;101;;Played;22;26;0;5;5;7;0;0;1;0;9;15;5;10;3;3
+83;15.04.2023;Playoffs;Kings;Away;L;123;126;;Played;37;30;1;5;6;2;0;0;5;3;11;20;6;14;2;2
+84;17.04.2023;Playoffs;Kings;Away;L;106;114;;Played;41;28;0;3;3;6;0;1;5;2;9;21;3;13;7;8
+85;20.04.2023;Playoffs;Kings;Home;W;114;97;;Played;37;36;1;5;6;3;2;1;1;4;12;25;6;12;6;6
+86;23.04.2023;Playoffs;Kings;Home;W;126;125;;Played;43;32;0;5;5;4;1;0;1;3;11;22;5;11;5;5
+87;26.04.2023;Playoffs;Kings;Away;W;123;116;;Played;42;31;0;2;2;8;0;0;5;2;12;25;2;10;5;6
+88;28.04.2023;Playoffs;Kings;Home;L;99;118;;Played;36;29;0;4;4;5;2;1;5;2;9;21;5;12;6;9
+89;30.04.2023;Playoffs;Kings;Away;W;120;100;;Played;38;50;1;7;8;6;1;0;1;2;20;38;7;18;3;5
+90;02.05.2023;Playoffs;Lakers;Home;L;112;117;;Played;38;27;0;6;6;3;1;0;5;3;10;24;6;13;1;1
+91;04.05.2023;Playoffs;Lakers;Home;W;127;100;;Played;30;20;0;4;4;12;1;0;3;3;7;12;3;5;3;3
+92;06.05.2023;Playoffs;Lakers;Away;L;97;127;;Played;32;23;2;2;4;3;1;1;3;2;9;21;4;10;1;3
+93;08.05.2023;Playoffs;Lakers;Away;L;101;104;;Played;42;31;3;7;10;14;3;0;2;5;12;30;3;14;4;4
+94;10.05.2023;Playoffs;Lakers;Home;W;121;106;;Played;39;27;0;3;3;8;0;1;2;0;12;24;3;11;0;0
+95;12.05.2023;Playoffs;Lakers;Away;L;101;122;;Played;39;32;1;5;6;5;1;1;4;3;11;28;4;14;6;6

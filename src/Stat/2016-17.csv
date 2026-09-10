@@ -1,0 +1,100 @@
+Game;Date;SeasonType;Opponent;HomeAway;Result;TeamScore;OppScore;OT;Status;Min;Pts;ORb;DRb;Reb;Ast;Stl;Blk;TO;PF;FGM;FGA;3PM;3PA;FTM;FTA
+1;25.10.2016;Regular Season;Spurs;Home;L;100;129;;Played;34;26;0;3;3;4;0;0;4;1;9;18;3;10;5;6
+2;28.10.2016;Regular Season;Pelicans;Away;W;122;114;;Played;34;23;1;0;1;8;1;0;4;3;8;19;4;10;3;4
+3;30.10.2016;Regular Season;Suns;Away;W;106;100;;Played;34;28;0;1;1;3;0;0;1;5;9;17;5;8;5;5
+4;01.11.2016;Regular Season;Trail Blazers;Away;W;127;104;;Played;30;28;1;3;4;3;1;0;4;3;10;21;5;10;3;4
+5;03.11.2016;Regular Season;Thunder;Home;W;122;96;;Played;30;21;0;1;1;7;2;1;1;1;6;14;2;6;7;8
+6;04.11.2016;Regular Season;Lakers;Away;L;97;117;;Played;31;13;0;8;8;10;2;1;2;3;5;17;0;10;3;3
+7;07.11.2016;Regular Season;Pelicans;Home;W;116;106;;Played;36;46;3;2;5;5;2;0;4;2;16;26;13;17;1;2
+8;09.11.2016;Regular Season;Mavericks;Home;W;116;95;;Played;31;24;0;3;3;6;1;0;5;1;8;12;4;8;4;4
+9;10.11.2016;Regular Season;Nuggets;Away;W;125;101;;Played;30;33;1;4;5;6;1;0;4;1;10;17;7;13;6;6
+10;13.11.2016;Regular Season;Suns;Home;W;133;120;;Played;37;30;0;6;6;6;2;0;3;2;9;17;5;9;7;7
+11;16.11.2016;Regular Season;Raptors;Away;W;127;121;;Played;37;35;2;1;3;7;1;0;3;3;10;19;3;9;12;13
+12;18.11.2016;Regular Season;Celtics;Away;W;104;88;;Played;36;16;0;3;3;8;4;1;2;4;7;20;2;10;0;0
+13;19.11.2016;Regular Season;Bucks;Away;W;124;121;;Played;35;20;0;5;5;5;1;0;3;4;7;21;1;11;5;5
+14;21.11.2016;Regular Season;Pacers;Away;W;120;83;;Played;30;22;2;4;6;6;1;0;1;1;6;11;2;6;8;8
+15;23.11.2016;Regular Season;Lakers;Home;W;149;106;;Played;29;31;0;5;5;9;1;0;1;1;11;18;7;12;2;2
+16;25.11.2016;Regular Season;Lakers;Away;W;109;85;;Played;36;24;2;3;5;5;3;0;3;1;8;17;4;10;4;4
+17;26.11.2016;Regular Season;Timberwolves;Home;W;115;102;;Played;37;34;1;7;8;6;1;0;6;4;13;19;4;8;4;4
+18;28.11.2016;Regular Season;Hawks;Home;W;105;100;;Played;38;25;0;3;3;3;2;0;3;2;6;17;4;11;9;11
+19;01.12.2016;Regular Season;Rockets;Home;L;127;132;2OT;Played;38;28;1;2;3;5;3;1;5;6;9;22;4;13;6;6
+20;03.12.2016;Regular Season;Suns;Home;W;138;109;;Played;30;31;0;2;2;1;1;0;3;2;10;15;5;7;6;6
+21;05.12.2016;Regular Season;Pacers;Home;W;142;106;;Played;29;13;0;4;4;11;2;1;0;4;4;10;2;7;3;4
+22;07.12.2016;Regular Season;Clippers;Away;W;115;98;;Played;33;19;0;4;4;6;7;0;3;3;7;16;0;8;5;5
+23;08.12.2016;Regular Season;Jazz;Away;W;106;99;;Played;36;26;0;5;5;2;2;0;3;2;7;16;3;9;9;9
+24;10.12.2016;Regular Season;Grizzlies;Away;L;89;110;;Played;31;17;2;6;8;3;0;0;4;3;4;14;3;11;6;6
+25;11.12.2016;Regular Season;Timberwolves;Away;W;116;108;;Played;32;22;1;3;4;9;1;0;0;3;6;13;2;5;8;8
+26;13.12.2016;Regular Season;Pelicans;Away;W;113;109;;Played;34;30;2;2;4;7;1;0;2;2;11;23;5;9;3;4
+27;15.12.2016;Regular Season;Knicks;Home;W;103;90;;Played;34;8;1;9;10;8;1;0;3;0;3;14;2;8;0;0
+28;17.12.2016;Regular Season;Trail Blazers;Home;W;135;90;;Played;27;19;0;3;3;6;0;0;3;3;6;11;5;8;2;2
+29;20.12.2016;Regular Season;Jazz;Home;W;104;74;;Played;30;25;0;3;3;4;3;0;0;0;8;18;4;9;5;5
+30;22.12.2016;Regular Season;Nets;Away;W;117;101;;Played;33;15;0;2;2;7;5;0;2;5;6;19;3;13;0;0
+31;23.12.2016;Regular Season;Pistons;Away;W;119;113;;Played;35;25;0;3;3;8;2;0;5;1;7;16;5;10;6;6
+32;25.12.2016;Regular Season;Cavaliers;Away;L;108;109;;Played;37;15;0;3;3;3;3;0;3;4;4;11;2;7;5;6
+33;28.12.2016;Regular Season;Raptors;Home;W;121;111;;Played;36;28;1;6;7;7;0;0;2;3;9;18;3;6;7;7
+34;30.12.2016;Regular Season;Mavericks;Home;W;108;99;;Played;30;14;0;4;4;5;1;0;1;2;5;12;3;6;1;1
+35;02.01.2017;Regular Season;Nuggets;Home;W;127;119;;Played;35;22;0;3;3;5;0;0;3;2;8;18;3;9;3;3
+36;04.01.2017;Regular Season;Trail Blazers;Home;W;125;117;;Played;36;35;1;6;7;5;1;0;5;1;12;25;5;13;6;8
+37;06.01.2017;Regular Season;Grizzlies;Home;L;119;128;OT;Played;42;40;0;3;3;6;1;1;4;2;15;27;5;13;5;5
+38;08.01.2017;Regular Season;Kings;Away;W;117;106;;Played;37;30;2;2;4;6;2;0;4;3;11;22;5;11;3;3
+39;10.01.2017;Regular Season;Heat;Home;W;107;95;;Played;36;24;1;7;8;9;1;1;3;0;8;21;4;11;4;5
+40;12.01.2017;Regular Season;Pistons;Home;W;127;107;;Played;30;24;0;2;2;7;5;0;8;0;9;17;3;9;3;3
+41;16.01.2017;Regular Season;Cavaliers;Home;W;126;91;;Played;31;20;0;2;2;11;4;0;3;2;7;20;5;12;1;2
+42;18.01.2017;Regular Season;Thunder;Home;W;121;100;;Played;34;24;0;4;4;8;3;0;3;0;9;19;2;6;4;4
+43;20.01.2017;Regular Season;Rockets;Away;W;125;108;;Played;33;24;0;1;1;7;1;0;1;1;8;18;5;11;3;5
+44;22.01.2017;Regular Season;Magic;Away;W;118;98;;Played;30;27;1;3;4;6;0;0;3;2;8;15;7;13;4;4
+45;23.01.2017;Regular Season;Heat;Away;L;102;105;;Played;37;21;0;9;9;8;0;1;4;2;7;19;3;9;4;5
+46;25.01.2017;Regular Season;Hornets;Away;W;113;103;;Played;36;28;0;2;2;7;1;1;4;2;11;23;6;12;0;0
+47;28.01.2017;Regular Season;Clippers;Home;W;144;98;;Played;29;43;0;9;9;6;0;0;2;1;15;23;9;15;4;4
+48;29.01.2017;Regular Season;Trail Blazers;Away;W;113;111;;DNP - Inactive;;;;;;;;;;;;;;;;
+49;01.02.2017;Regular Season;Hornets;Home;W;126;111;;Played;30;39;1;4;5;8;3;0;1;2;14;20;11;15;0;0
+50;02.02.2017;Regular Season;Clippers;Away;W;133;120;;Played;37;29;1;2;3;11;3;0;4;1;11;23;3;10;4;4
+51;04.02.2017;Regular Season;Kings;Away;L;106;109;OT;Played;42;35;0;4;4;9;3;0;3;2;11;20;8;14;5;6
+52;08.02.2017;Regular Season;Bulls;Home;W;123;92;;Played;28;13;0;1;1;6;1;0;2;4;5;11;1;4;2;2
+53;10.02.2017;Regular Season;Grizzlies;Away;W;122;107;;Played;35;18;0;4;4;5;0;0;3;3;6;13;2;6;4;5
+54;11.02.2017;Regular Season;Thunder;Away;W;130;114;;Played;34;26;3;5;8;9;2;0;0;2;9;19;4;11;4;4
+55;13.02.2017;Regular Season;Nuggets;Away;L;110;132;;Played;27;11;1;1;2;5;1;0;1;1;4;18;1;11;2;2
+56;15.02.2017;Regular Season;Kings;Home;W;109;86;;Played;30;13;0;6;6;9;0;2;3;2;4;14;2;8;3;4
+57;23.02.2017;Regular Season;Clippers;Home;W;123;113;;Played;32;35;1;6;7;5;4;0;4;5;10;16;6;10;9;10
+58;25.02.2017;Regular Season;Nets;Home;W;112;95;;Played;35;27;1;4;5;5;3;0;4;2;9;21;5;10;4;4
+59;27.02.2017;Regular Season;76ers;Away;W;119;108;;Played;35;19;2;2;4;6;2;0;4;2;7;23;0;11;5;5
+60;28.02.2017;Regular Season;Wizards;Away;L;108;112;;Played;34;25;4;3;7;4;2;0;5;3;9;20;2;9;5;6
+61;02.03.2017;Regular Season;Bulls;Away;L;87;94;;Played;35;23;1;5;6;5;5;0;4;4;10;27;2;11;1;1
+62;05.03.2017;Regular Season;Knicks;Away;W;112;105;;Played;37;31;2;6;8;6;2;0;2;2;11;24;5;13;4;6
+63;06.03.2017;Regular Season;Hawks;Away;W;119;111;;Played;35;24;1;3;4;9;0;0;2;4;8;20;6;15;2;3
+64;08.03.2017;Regular Season;Celtics;Home;L;86;99;;Played;35;23;3;2;5;6;0;1;4;4;8;16;2;9;5;5
+65;10.03.2017;Regular Season;Timberwolves;Away;L;102;103;;Played;35;26;3;3;6;7;1;0;6;4;10;27;1;8;5;5
+66;11.03.2017;Regular Season;Spurs;Away;L;85;107;;DNP - Rest;;;;;;;;;;;;;;;;
+67;14.03.2017;Regular Season;76ers;Home;W;106;104;;Played;37;29;2;4;6;5;3;0;5;3;8;23;5;13;8;8
+68;16.03.2017;Regular Season;Magic;Home;W;122;92;;Played;28;25;0;1;1;9;3;0;2;1;8;15;2;7;7;7
+69;18.03.2017;Regular Season;Bucks;Home;W;117;92;;Played;30;28;0;4;4;4;1;1;3;3;9;13;6;8;4;4
+70;20.03.2017;Regular Season;Thunder;Away;W;111;95;;Played;30;23;0;4;4;6;0;0;5;3;8;17;7;12;0;0
+71;21.03.2017;Regular Season;Mavericks;Away;W;112;87;;Played;30;17;1;4;5;9;2;0;0;1;7;14;3;9;0;0
+72;24.03.2017;Regular Season;Kings;Home;W;114;100;;Played;33;27;1;6;7;12;6;0;3;0;9;18;5;11;4;4
+73;26.03.2017;Regular Season;Grizzlies;Home;W;106;94;;Played;36;21;0;1;1;11;4;0;5;1;8;18;5;12;0;0
+74;28.03.2017;Regular Season;Rockets;Away;W;113;106;;Played;33;32;2;8;10;7;2;0;6;5;11;22;3;11;7;10
+75;29.03.2017;Regular Season;Spurs;Away;W;110;98;;Played;35;29;1;3;4;11;1;0;2;5;9;20;4;8;7;7
+76;31.03.2017;Regular Season;Rockets;Home;W;107;98;;Played;35;24;3;4;7;5;2;0;2;4;8;18;4;9;4;5
+77;02.04.2017;Regular Season;Wizards;Home;W;139;115;;Played;36;42;0;1;1;8;1;0;1;3;15;22;9;14;3;3
+78;04.04.2017;Regular Season;Timberwolves;Home;W;121;107;;Played;30;19;0;3;3;9;3;2;3;2;7;18;3;8;2;4
+79;05.04.2017;Regular Season;Suns;Away;W;120;111;;Played;35;42;0;4;4;11;2;2;3;0;15;25;8;12;4;7
+80;08.04.2017;Regular Season;Pelicans;Home;W;123;101;;DNP - Left Knee Contusion;;;;;;;;;;;;;;;;
+81;10.04.2017;Regular Season;Jazz;Home;L;99;105;;Played;30;28;1;3;4;4;1;0;1;1;9;16;6;8;4;5
+82;12.04.2017;Regular Season;Lakers;Home;W;109;94;;Played;28;20;0;5;5;8;2;0;6;1;6;17;5;14;3;4
+83;16.04.2017;Playoffs;Trail Blazers;Home;W;121;109;;Played;36;29;1;4;5;4;1;1;5;5;9;19;3;8;8;8
+84;19.04.2017;Playoffs;Trail Blazers;Home;W;110;81;;Played;31;19;0;5;5;6;4;1;4;1;6;18;4;12;3;5
+85;22.04.2017;Playoffs;Trail Blazers;Away;W;119;113;;Played;39;34;1;3;4;8;2;1;1;1;10;25;5;14;9;10
+86;24.04.2017;Playoffs;Trail Blazers;Away;W;128;103;;Played;30;37;2;5;7;8;1;0;4;0;12;20;7;11;6;7
+87;02.05.2017;Playoffs;Jazz;Home;W;106;94;;Played;30;22;1;6;7;5;1;0;4;1;7;11;1;4;7;7
+88;04.05.2017;Playoffs;Jazz;Home;W;115;104;;Played;38;23;1;3;4;6;2;0;3;3;8;15;5;8;2;2
+89;06.05.2017;Playoffs;Jazz;Away;W;102;91;;Played;37;23;0;5;5;4;0;0;0;2;6;20;3;11;8;9
+90;08.05.2017;Playoffs;Jazz;Away;W;121;95;;Played;35;30;1;4;5;7;0;1;2;2;9;15;4;10;8;8
+91;14.05.2017;Playoffs;Spurs;Home;W;113;111;;Played;39;40;2;5;7;3;3;0;3;0;14;26;7;16;5;7
+92;16.05.2017;Playoffs;Spurs;Home;W;136;100;;Played;31;29;1;6;7;7;3;0;2;3;8;13;6;9;7;7
+93;20.05.2017;Playoffs;Spurs;Away;W;120;108;;Played;34;21;1;4;5;3;6;0;5;3;8;15;3;7;2;2
+94;22.05.2017;Playoffs;Spurs;Away;W;129;115;;Played;34;36;0;5;5;6;0;0;6;2;14;24;5;13;3;3
+95;01.06.2017;Playoffs;Cavaliers;Home;W;113;91;;Played;34;28;1;5;6;10;3;0;2;3;11;22;6;11;0;0
+96;04.06.2017;Playoffs;Cavaliers;Home;W;132;113;;Played;36;32;2;8;10;11;1;0;8;3;7;17;4;11;14;14
+97;07.06.2017;Playoffs;Cavaliers;Away;W;118;113;;Played;39;26;5;8;13;6;2;0;1;3;8;19;5;9;5;5
+98;09.06.2017;Playoffs;Cavaliers;Away;L;116;137;;Played;38;14;1;4;5;10;2;0;4;2;4;13;2;9;4;5
+99;12.06.2017;Playoffs;Cavaliers;Home;W;129;120;;Played;41;34;2;4;6;10;3;0;4;3;10;20;2;9;12;15
