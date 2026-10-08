@@ -8,9 +8,9 @@ using static StatLib.Helpers;
 
 namespace StatLib
 {
-    public class GameParser
+    public static class GameParser
     {
-        public List<Game> ParseCsv(string csv, string seasonYears)
+        public static List<Game> ParseCsv(string csv, string seasonYears)
         {
             List<Game> season = new List<Game>();
             using var reader = new StringReader(csv);
@@ -23,7 +23,7 @@ namespace StatLib
             }
             return season;
         }
-        public Game ParseLine(string line, string seasonYears)
+        public static Game ParseLine(string line, string seasonYears)
         {
             string[] fields = line.Split(";");
             Game game = new Game();
