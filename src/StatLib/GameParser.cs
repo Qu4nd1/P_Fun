@@ -1,28 +1,37 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Globalization;
+﻿using System.Globalization;
 using static StatLib.Helpers;
 
 namespace StatLib
 {
     public static class GameParser
     {
+        /// <summary>
+        /// Converts the text from a csv to a list of `Game` objects. 
+        /// </summary>
+        /// <param name="csv">The entire text of the csv.</param>
+        /// <param name="seasonYears">The years in which the season took place in a yyyy-yy format.</param>
+        /// <returns></returns>
         public static List<Game> ParseCsv(string csv, string seasonYears)
         {
             List<Game> season = new List<Game>();
-            using var reader = new StringReader(csv);
+            using var reader = new StringReader(csv); // Reads line (one by one) of the string csv as if it was a file
             string? row;
-            reader.ReadLine();
-            while ((row = reader.ReadLine()) != null)
+            reader.ReadLine(); // First line read but not used beacause its the header line which is not useful to the program
+            // Goes on as long as reader.Readline() dosen't read a line with nothing on it (end of csv)
+            // Adds each line as a `Game` object to the list season
+            while ((row = reader.ReadLine()) != null) // Assigns the line read to `row` and checks if its null or not
             {
                 Game game = ParseLine(row, seasonYears);
                 season.Add(game);
             }
             return season;
         }
+        /// <summary>
+        /// Parses the line's data and assigns it to the different fields knowing that the data is always in the same order
+        /// </summary>
+        /// <param name="line">The string of a specific line</param>
+        /// <param name="seasonYears">The years in which the season took place in a yyyy-yy format.</param>
+        /// <returns></returns>
         public static Game ParseLine(string line, string seasonYears)
         {
             string[] fields = line.Split(";");

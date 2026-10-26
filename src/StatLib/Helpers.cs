@@ -10,7 +10,7 @@ namespace StatLib
     {
         public static int? ParseNullableInt(string value)
         {
-            return ((value is not "" ? Convert.ToInt32(value) : null));
+            return ((value is not "" ? Convert.ToInt32(value) : null)); // If not empty converts string to int, otherwise returns null
         }
     }
 }

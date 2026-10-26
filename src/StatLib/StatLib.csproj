@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-	<EmbeddedResource Include="../Stat/*.csv" >
+	<EmbeddedResource Include="../Stat/*.csv" > <!-- When build happens, takes every .csv file in the Stat folder -->
 		<LogicalName>StatLib.Stat.%(Filename)%(Extension)</LogicalName>
 	</EmbeddedResource>
   </ItemGroup>
