@@ -3,7 +3,7 @@ using StatLib;
 namespace StatVisual
 {
     /// <summary>
-    /// Main window: lets the user pick a season and a stat, and draws it as a chart
+    /// Main window: lets the user check several seasons and pick a stat, and draws it as a chart
     /// </summary>
     public partial class Form1 : Form
     {
@@ -17,11 +17,43 @@ namespace StatVisual
         /// </summary>
         private Dictionary<string, List<Game>> seasonsList = SeasonProvider.ReturnSeasonContent();
 
-        private ComboBox cmbSeason = new ComboBox();
+        /// <summary>
+        /// The list of seasons, each one with a checkbox, so several can be shown at once
+        /// </summary>
+        private CheckedListBox cklSeasons = new CheckedListBox();
+
+        /// <summary>
+        /// The button that looks like a dropdown and opens the list of seasons
+        /// </summary>
+        private Button btnSeasons = new Button();
+
+        /// <summary>
+        /// The first game of the interval shown on the chart
+        /// </summary>
+        private NumericUpDown nudFrom = new NumericUpDown();
+
+        /// <summary>
+        /// The last game of the interval shown on the chart
+        /// </summary>
+        private NumericUpDown nudTo = new NumericUpDown();
+
+        private Label lblFrom = new Label();
+        private Label lblTo = new Label();
+
+        /// <summary>
+        /// The red message shown when the first game is higher than the last one
+        /// </summary>
+        private Label lblIntervalError = new Label();
+
+        /// <summary>
+        /// The popup that holds the list of seasons, closes when the user clicks outside it
+        /// </summary>
+        private ToolStripDropDown seasonsDropDown = new ToolStripDropDown();
+
         private ComboBox cmbStat = new ComboBox();
 
         /// <summary>
-        /// Holds the two comboboxes side by side at the top of the window
+        /// Holds the stat combobox at the top of the window
         /// </summary>
         private FlowLayoutPanel topBar = new FlowLayoutPanel();
 
@@ -41,7 +73,12 @@ namespace StatVisual
         private Game? hoveredGame;
 
         /// <summary>
-        /// The three kinds of games, each drawn as its own colored line
+        /// The ten base colors, one per season
+        /// </summary>
+        private static readonly ScottPlot.IPalette SeasonPalette = new ScottPlot.Palettes.Category10();
+
+        /// <summary>
+        /// The three kinds of games, each drawn as its own line so the chart shows a break between them
         /// </summary>
         private static readonly string[] SeasonTypes = { "Regular Season", "Play-In", "Playoffs" };
 
@@ -60,101 +97,196 @@ namespace StatVisual
         };
 
         /// <summary>
-        /// Builds the window, fills the comboboxes and draws the first chart
+        /// Builds the window, fills the lists and draws the first chart
         /// </summary>
         public Form1()
         {
             InitializeComponent();
 
-            // The plot fills all the space the top bar leaves free
+            // The plot is added first so it fills the space the other controls leave free
             statPlot.Dock = DockStyle.Fill;
             Controls.Add(statPlot);
 
-            // The top bar is added after the plot so it takes its strip first
+            // The list is not on the form, it lives in a popup opened by the button
+            cklSeasons.CheckOnClick = true;   // one click checks the box, no need to select the line first
+            cklSeasons.BorderStyle = BorderStyle.None;
+
+            btnSeasons.Width = 140;
+            btnSeasons.Click += (s, e) => seasonsDropDown.Show(btnSeasons, 0, btnSeasons.Height);
+
+            // The top bar is added last so it takes its strip first
             topBar.Dock = DockStyle.Top;
             topBar.AutoSize = true;
-            topBar.Controls.Add(cmbSeason);
+            topBar.Controls.Add(btnSeasons);
             topBar.Controls.Add(cmbStat);
+            // The highest game number of all the seasons, so the interval covers everything by default
+            int lastGame = seasonsList.Values.SelectMany(games => games).Max(g => g.Id);
+
+            // The labels show the order the limits have to be entered in: first the lowest, then the highest
+            lblFrom.Text = "From game";
+            lblFrom.AutoSize = true;
+            lblFrom.Margin = new Padding(10, 6, 0, 0);
+
+            lblTo.Text = "to game";
+            lblTo.AutoSize = true;
+            lblTo.Margin = new Padding(10, 6, 0, 0);
+
+            // The maximum is set before the value, otherwise the value would be capped at the old maximum
+            nudFrom.Minimum = 1;
+            nudFrom.Maximum = lastGame;
+            nudFrom.Value = 1;
+            nudFrom.Width = 60;
+
+            nudTo.Minimum = 1;
+            nudTo.Maximum = lastGame;
+            nudTo.Value = lastGame;
+            nudTo.Width = 60;
+
+            lblIntervalError.Text = "The first game must be lower than the last one";
+            lblIntervalError.ForeColor = Color.Red;
+            lblIntervalError.AutoSize = true;
+            lblIntervalError.Margin = new Padding(10, 6, 0, 0);
+            lblIntervalError.Visible = false;
+
+            topBar.Controls.Add(lblFrom);
+            topBar.Controls.Add(nudFrom);
+            topBar.Controls.Add(lblTo);
+            topBar.Controls.Add(nudTo);
+            topBar.Controls.Add(lblIntervalError);
             Controls.Add(topBar);
 
             // DropDownList means the user can only pick from the list, not type
-            cmbSeason.DropDownStyle = ComboBoxStyle.DropDownList;
             cmbStat.DropDownStyle = ComboBoxStyle.DropDownList;
 
             // Dictionary keys have no guaranteed order, so the seasons are sorted
-            cmbSeason.Items.AddRange(seasonsList.Keys.OrderBy(k => k).Cast<object>().ToArray());
+            cklSeasons.Items.AddRange(seasonsList.Keys.OrderBy(k => k).Cast<object>().ToArray());
+            // The popup is as big as the list, so no scrollbar is needed
+            cklSeasons.Width = 110;
+            cklSeasons.Height = cklSeasons.Items.Count * cklSeasons.ItemHeight + 4;
+            seasonsDropDown.Items.Add(new ToolStripControlHost(cklSeasons) { Padding = Padding.Empty, Margin = Padding.Empty });
             cmbStat.Items.AddRange(Stats.Keys.Cast<object>().ToArray());
 
-            // Both comboboxes call the same method when their selection changes
-            cmbSeason.SelectedIndexChanged += Redraw;
-            cmbStat.SelectedIndexChanged += Redraw;
-            statPlot.MouseMove += StatPlot_MouseMove;
+            // The defaults are set before the handlers are attached, so they don't trigger a draw
+            cmbStat.SelectedIndex = 0;                                    // Points
+            cklSeasons.SetItemChecked(cklSeasons.Items.Count - 1, true);  // latest season
 
-            cmbStat.SelectedIndex = 0;                          // Points
-            cmbSeason.SelectedIndex = cmbSeason.Items.Count - 1; // latest season, triggers the first draw
+            cmbStat.SelectedIndexChanged += Redraw;
+            cklSeasons.ItemCheck += CklSeasons_ItemCheck;
+            statPlot.MouseMove += StatPlot_MouseMove;
+            nudFrom.ValueChanged += Redraw;
+            nudTo.ValueChanged += Redraw;
+
+            // The first draw is done by hand because nothing was listening when the defaults were set
+            Redraw(null, EventArgs.Empty);
         }
 
         /// <summary>
-        /// Redraws the chart with the season and stat currently selected
+        /// Redraws the chart after a season is checked or unchecked
         /// </summary>
-        /// <param name="sender">The combobox that changed.</param>
+        /// <param name="sender">The list that raised the event.</param>
+        /// <param name="e">The event data, not used here.</param>
+        private void CklSeasons_ItemCheck(object? sender, ItemCheckEventArgs e)
+        {
+            // ItemCheck fires before the box changes state, so the redraw waits until the change is done
+            BeginInvoke((Action)(() => Redraw(null, EventArgs.Empty)));
+        }
+
+        /// <summary>
+        /// Redraws the chart with the seasons, the stat and the interval of games currently selected
+        /// </summary>
+        /// <param name="sender">The control that changed.</param>
         /// <param name="e">The event data, not used here.</param>
         private void Redraw(object? sender, EventArgs e)
         {
-            // Nothing is drawn until both comboboxes have a selection
-            if (cmbSeason.SelectedItem is string season && cmbStat.SelectedItem is string stat)
-                DrawStat(season, stat);
+            List<string> seasons = cklSeasons.CheckedItems.Cast<string>().ToList();
+
+            // The button shows the season, or how many are checked
+            btnSeasons.Text = seasons.Count switch
+            {
+                0 => "Seasons \u25BE",
+                1 => $"{seasons[0]} \u25BE",
+                _ => $"{seasons.Count} seasons \u25BE",
+            };
+
+            int from = (int)nudFrom.Value;
+            int to = (int)nudTo.Value;
+
+            // With the limits in the wrong order the message is shown and the chart keeps its last drawing
+            lblIntervalError.Visible = from > to;
+            if (from > to)
+                return;
+
+            // Nothing is drawn until a stat is selected
+            if (cmbStat.SelectedItem is string stat)
+                DrawStat(seasons, stat, from, to);
         }
 
         /// <summary>
-        /// Draws one stat of one season, one colored line per season type
+        /// Draws one stat for every checked season, one line per season and per season type, inside the chosen interval of games
         /// </summary>
-        /// <param name="season">The season to draw (ex: 2021-22).</param>
+        /// <param name="seasons">The seasons to draw (ex: 2021-22), can be empty.</param>
         /// <param name="statName">The name of the stat to draw, one of the keys of Stats.</param>
-        private void DrawStat(string season, string statName)
+        /// <param name="from">The first game of the interval, included.</param>
+        /// <param name="to">The last game of the interval, included.</param>
+        private void DrawStat(List<string> seasons, string statName, int from, int to)
         {
             var getStat = Stats[statName];
 
+            // Remove the previous lines so they don't pile up, and forget the games they were linked to
             statPlot.Plot.Clear();
-            scatterGames.Clear();      // the old lines no longer exist
+            scatterGames.Clear();
             hoveredGame = null;
             gameToolTip.Hide(statPlot);
 
-            foreach (string type in SeasonTypes)
+            foreach (string season in seasons)
             {
-                var games = seasonsList[season]
-                    .Where(g => g.SeasonType == type)
-                    .ToList();
+                // The color depends on the position of the season in the whole list, not in the checked ones,
+                // so a season keeps the same color whatever else is checked
+                ScottPlot.Color color = SeasonPalette.GetColor(cklSeasons.Items.IndexOf(season));
 
-                // Some seasons have no Play-In games, so there is nothing to draw
-                if (games.Count == 0)
-                    continue;
+                // Only the first line of a season goes in the legend, the other types have the same color
+                bool inLegend = false;
 
-                // A game that was not played becomes NaN so the chart shows a gap instead of a 0
-                double[] xs = games.Select(g => (double)g.Id).ToArray();
-                double[] ys = games
-                    .Select(g => g.Status == "Played" && getStat(g) is int v ? (double)v : double.NaN)
-                    .ToArray();
-
-                var scatter = statPlot.Plot.Add.Scatter(xs, ys);
-                scatterGames[scatter] = games;   // remember which games this line was drawn from
-                scatter.LegendText = type;
-                scatter.Color = type switch
+                foreach (string type in SeasonTypes)
                 {
-                    "Regular Season" => ScottPlot.Colors.Blue,
-                    "Play-In" => ScottPlot.Colors.Orange,
-                    _ => ScottPlot.Colors.Red,
-                };
-                // keep your NaN gap setting here
+                    var games = seasonsList[season]
+                        .Where(g => g.SeasonType == type && g.Id >= from && g.Id <= to)
+                        .ToList();
+
+                    // Some seasons have no Play-In games, so there is nothing to draw
+                    if (games.Count == 0)
+                        continue;
+
+                    // A game that was not played becomes NaN so the chart shows a gap instead of a 0
+                    double[] xs = games.Select(g => (double)g.Id).ToArray();
+                    double[] ys = games
+                        .Select(g => g.Status == "Played" && getStat(g) is int v ? (double)v : double.NaN)
+                        .ToArray();
+
+                    var scatter = statPlot.Plot.Add.Scatter(xs, ys);
+                    scatter.Color = color;
+
+                    if (!inLegend)
+                    {
+                        scatter.LegendText = season;
+                        inLegend = true;
+                    }
+
+                    // Remember which games this line was drawn from, for the tooltip
+                    scatterGames[scatter] = games;
+                }
             }
 
-            statPlot.Plot.ShowLegend();
-            statPlot.Plot.Title($"{season}  {statName} per game");
+            if (seasons.Count > 0)
+                statPlot.Plot.ShowLegend();
+
+            statPlot.Plot.Title($"{string.Join(", ", seasons)}  {statName} per game (games {from} to {to})");
             statPlot.Plot.XLabel("Game #");
             statPlot.Plot.YLabel(statName);
             statPlot.Plot.Axes.AutoScale();   // verify name, so the y axis fits each stat
             statPlot.Refresh();
         }
+
         /// <summary>
         /// Shows the details of the game under the mouse when it is close to a point of the chart
         /// </summary>
@@ -186,7 +318,8 @@ namespace StatVisual
 
                 hoveredGame = game;
                 string value = Stats[statName](game)?.ToString() ?? "-";
-                string text = $"{game.Date:dd.MM.yyyy} vs {game.Opponent} ({game.GamePlace})\n" +
+                string text = $"{game.Season} {game.SeasonType}\n" +
+                              $"{game.Date:dd.MM.yyyy} vs {game.Opponent} ({game.GamePlace})\n" +
                               $"{game.Result} {game.TeamScore}-{game.OppScore}\n" +
                               $"{statName}: {value}";
                 gameToolTip.Show(text, statPlot, e.X + 15, e.Y + 15);
