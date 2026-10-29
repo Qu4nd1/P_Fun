@@ -107,6 +107,16 @@ namespace StatVisual
             statPlot.Dock = DockStyle.Fill;
             Controls.Add(statPlot);
 
+            // Both axes only show whole numbers
+            UseWholeNumberTicks(statPlot.Plot.Axes.Bottom);
+            UseWholeNumberTicks(statPlot.Plot.Axes.Left);
+
+            // Neither axis can be panned or zoomed below zero, and 1000 is far beyond any game number or stat value
+            statPlot.Plot.Axes.Rules.Add(new ScottPlot.AxisRules.MaximumBoundary(
+                statPlot.Plot.Axes.Bottom,
+                statPlot.Plot.Axes.Left,
+                new ScottPlot.AxisLimits(0, 1000, 0, 1000)));
+
             // The list is not on the form, it lives in a popup opened by the button
             cklSeasons.CheckOnClick = true;   // one click checks the box, no need to select the line first
             cklSeasons.BorderStyle = BorderStyle.None;
@@ -276,7 +286,7 @@ namespace StatVisual
                     scatterGames[scatter] = games;
                 }
             }
-
+            LimitAxes(getStat);
             if (seasons.Count > 0)
                 statPlot.Plot.ShowLegend();
 
@@ -329,6 +339,40 @@ namespace StatVisual
             // Mouse is not close to any point, hide the tooltip
             hoveredGame = null;
             gameToolTip.Hide(statPlot);
+        }
+
+        /// <summary>
+        /// Makes an axis show only whole numbers, because game numbers and stats are whole numbers
+        /// </summary>
+        /// <param name="axis">The axis to change.</param>
+        private static void UseWholeNumberTicks(ScottPlot.IAxis axis)
+        {
+            axis.TickGenerator = new ScottPlot.TickGenerators.NumericAutomatic { IntegerTicksOnly = true };
+        }
+
+        /// <summary>
+        /// Stops the chart from being moved or zoomed outside the data: nothing below 0, and nothing above
+        /// the highest game number and the highest value currently shown
+        /// </summary>
+        /// <param name="getStat">The function that reads the selected stat from a game.</param>
+        private void LimitAxes(Func<Game, int?> getStat)
+        {
+            // Only the games that were played and have a value count, the missed games are gaps
+            var shown = scatterGames.Values
+                .SelectMany(games => games)
+                .Where(g => g.Status == "Played" && getStat(g) is not null)
+                .ToList();
+
+            // DefaultIfEmpty avoids an exception when nothing is shown (no season checked, or an empty interval)
+            double maxX = shown.Select(g => g.Id).DefaultIfEmpty(1).Max();
+            double maxY = shown.Select(g => getStat(g)!.Value).DefaultIfEmpty(1).Max();
+
+            // The old limits are replaced, because the maximum changes with the seasons, the stat and the interval
+            statPlot.Plot.Axes.Rules.Clear();
+            statPlot.Plot.Axes.Rules.Add(new ScottPlot.AxisRules.MaximumBoundary(
+                statPlot.Plot.Axes.Bottom,
+                statPlot.Plot.Axes.Left,
+                new ScottPlot.AxisLimits(0, maxX +1, 0, maxY +1)));
         }
     }
 }
